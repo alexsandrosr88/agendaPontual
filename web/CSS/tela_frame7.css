@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+    font-family:'Mulish', sans-serif;
+}
+
+#container-landing .grid-dashboard{
+    display: grid;
+    grid-template-columns: 25vw 65vw;
+    grid-template-rows: 15vh 80vh;
+    grid-template-areas: "aside header"
+                         "aside main"
+                         "aside main";
+}
+#container-landing .grid-dashboard aside{
+    grid-area: aside;
+    border-right: 1px solid rgba(84, 101, 130, 0.2);;
+    color:#546582;
+}
+#container-landing .grid-dashboard header{
+    grid-area: header;
+    border-bottom:1px solid rgba(84, 101, 130, 0.3);
+}
+#container-landing .grid-dashboard main{
+    grid-area: main;
+}   
+#container-landing aside .initial-header{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   padding:38px 0 100.3px 0;
+}
+#container-landing .main-menu-content .text p:nth-child(4){
+    color:#166CD0;
+    font-weight:bold;
+}
+#container-landing aside .settings_and_help{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    border-top: 1px solid rgba(84, 101, 130, 0.2);
+    border-bottom:1px solid rgba(84, 101, 130, 0.2);
+}
+#container-landing aside .settings_and_help p{
+    margin:0 auto;
+}
+#container-landing aside .main-menu-content, footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container-landing .main-menu-content > .text{
+    margin-bottom:162px;
+}
+#container-landing aside section p{
+    margin-left:95px;
+}
+#container-landing aside section{
+    padding:25px 0;
+}
+#container-landing aside section p:first-child{
+    font-weight:700;
+}
+#container-landing aside footer{
+    margin-top:25px;
+    color:#546582;
+    padding:15px 0;
+    width:100%;
+}
+#container-landing .header-download{
+    margin:40px 50px 0 50px;
+    cursor:pointer;
+}
+#container-landing .exit{
+    margin:29px 0 0 50px;
+    cursor:pointer;
+}
+#container-landing .exit span{
+    margin-left:10px;
+    font:700 25px 'Mulish', sans-serif;
+    color:#166CD0;
+}
+#container-landing .main-content{
+    margin:70px 0 0 85px;
+}
+#container-landing .main-content h2{
+    font:bold 30px 'Mulish', sans-serif;
+    color:rgba(84, 101, 130, 0.9);
+    letter-spacing: 0.3;
+    width:390px;
+    line-height:38px;
+    margin-bottom:23px;
+}
+#container-landing .main-content p{
+    font:normal 18px 'Mulish', sans-serif;
+    color:#546582;
+    width:300px;
+    margin-bottom:55px;
+}
+#container-landing .dashboard, .new-encounter, .view-encounter, .radar, .config{
+    margin-bottom:30px;
+}
+#container-landing .radar span{
+    color:#166CD0;
+    font-weight:bold;
+}
+#container-landing .dashboard span, .new-encounter span, 
+.view-encounter span, .radar span, .config span, .help span, .feedback span, .sair span{
+    margin-left:22px;
+    font-size:16px;
+    cursor:pointer;
+    position:relative;
+    bottom:5px;
+}
+#container-landing .sair{
+    width:150px;
+}

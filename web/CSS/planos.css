@@ -1,0 +1,340 @@
+@import url(global.css);
+
+
+.topoPlanos{
+    width: 100%;
+    height: 513px;
+    background-image: linear-gradient(to bottom, transparent 75%,  #e9effa);
+    clear: both;
+    font-family: 'Mulish', sans-serif;
+}
+.topoComp{
+    width: 1080px;
+    margin: 0 auto;
+}
+.topoTxt{
+    width: 565px;
+    margin-top: 139px;
+    float: left;
+}
+.topoTxt h1{
+    width: 420px;
+    font-size: 33px;
+    color: rgba(84, 101, 130, 0.9);
+}
+.topoTxt h2{
+    width: 320px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #546582;
+}
+#topo1{
+    margin-top: 66px;
+}
+#topo2{
+    margin: 15px 0 0 41px;
+}
+.planos{
+    width: 1080px;
+   height: 882px;
+   margin: 0 auto;
+   padding-top: 77px;
+   font-family: 'Mulish', sans-serif; 
+}
+.plano{
+    width: 347.22px;
+    height: 645px;
+    float: left;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    box-shadow: 3px 5px 20px rgb(117 117 117 / 14%);
+}
+.personal, .economy, .premium{
+    width: 320px;
+    height: 356px;
+    padding: 40px 0 0 30px;
+}
+#meioPlanos{
+    margin: 0 14px;
+}
+.personal h3, .economy h3, .premium h3{
+    width: 175px;
+    height: 28.5px;
+    margin: 0 0 40px 0;
+    padding-top: 11.5px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+}
+.personal h3{
+    background: #1CC4BF;
+}
+.economy h3{
+    background: #CC009F;
+}    
+.premium h3{
+    background: #4AB8DB;
+}    
+.personal p, .economy p, .premium p{
+    width: 270px;
+    margin: 0;
+    font-size: 20px;
+    color: #546582;
+}
+.personal h1, .economy h1, .premium h1{
+    margin: 30px 0 39px 0;
+    font-weight: 800;
+    font-size: 30px;
+    float: left;
+}
+#mesPlano{
+    width: 35px;
+    margin: 49px 0 39px 5px;
+    font-size: 15px;
+    float: left;  
+}
+.personal input[type='submit'], .economy input[type='submit'], .premium input[type='submit']{
+    width: 291px;
+    height: 55px;
+    border: transparent;
+    border-radius: 8px;
+    
+    font-size: 17px;
+    color: #fff;
+}
+.personal input[type='submit']{
+    background-color: #1CC4BF;
+}
+.economy input[type='submit']{
+    background: #CC009F;
+}
+.premium input[type='submit']{
+    background: #4AB8DB;
+}
+.personal input[type='submit']:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.economy input[type='submit']:hover{
+    background: linear-gradient(263.73deg, rgba(255, 255, 255, 0.3) 35.71%, rgba(255, 255, 255, 0) 103.63%), #CC009F;
+}
+.premium input[type='submit']:hover{
+    background: linear-gradient(263.73deg, rgba(0, 255, 255, 0.2) 35.71%, rgba(255, 255, 255, 0) 103.63%), #4AB8DB;
+}
+.personal input[type='submit']:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}
+.economy input[type='submit']:focus{
+    background: linear-gradient(263.73deg, rgba(255, 255, 255, 0.3) 35.71%, rgba(255, 255, 255, 0) 103.63%), #CC009F;
+    box-shadow: 0px 10px 25px rgba(204, 0, 159, 0.3);
+}
+.premium input[type='submit']:focus{
+    background: linear-gradient(263.73deg, rgba(0, 255, 255, 0.2) 35.71%, rgba(255, 255, 255, 0) 103.63%), #4AB8DB;
+    box-shadow: 0px 10px 25px rgba(0, 82, 204, 0.2);
+}
+.itensPlano{
+    width: 317.2px;
+    height: 221px;
+    padding: 28px 0 0 30px;
+    background: #F7F8F9;
+    border-radius: 0px 0px 8px 8px;
+}
+.itensPlano svg{
+    float: left;
+    margin: 0 14px 30px 0;
+}
+.itensPlano p{
+    height: 22px;
+    margin: 0 0 30px 0;
+}
+/*
+    divisorias
+*/
+.divPers{
+    width: 1080px;
+    height: 105px;
+    margin: 0 auto;
+}
+.divPers p{
+    margin: 0;
+    margin-right: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    color: #505F79;
+    float: left;
+}
+.barraPers{
+    height: 1px;
+    margin: 10px 0;
+    background-color: rgba(80, 95, 121, 0.1);
+    float: left;
+}
+.barraPers{
+    width: 901px;
+}
+/*
+    personalizacao
+*/
+.personalizacao{
+    width: 1080px;
+    height: 862px;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+}
+.persTxt{
+    margin: 0 0 58px 0;
+}
+.persTxt h1{
+    width: 361px;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    color: #546582;
+}
+.persTxt p{
+    width: 415px;
+    margin: 0;
+    font-size: 16px;
+    color: #505F79;
+}
+.persForm input[type='submit']{
+    width: 218px;
+    height: 60px;
+    color: #fff;
+    background-color: #1CC4BF;
+    border: none;
+    border-radius: 8px;
+}
+.persForm input[type='submit']:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.persForm input[type='submit']:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}
+.qtdRecep, .qtdMed, .qtdTol{
+    height: 50px;
+    margin-right: 13px;
+    padding: 10px 0 0 10px;
+    background: #FFFFFF;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px; 
+    float: left;
+}
+.qtdRecep:hover, .qtdMed:hover, .qtdTol:hover{
+    border: 1.4px solid #858FA1;
+}
+.qtdRecep{
+    width: 252px;
+}
+.qtdMed{
+    width: 220px;
+}
+.qtdTol{
+    width: 300px;
+}
+.qtdRecep p, .qtdMed p, .qtdTol p{
+    margin: 0;
+    font-size: 10px;
+    color: #B9BFC9;
+}
+.qtdRecep input[type='text'], .qtdMed input[type='text'], .qtdTol input[type='text']{
+    margin: 7px 0 0 0;
+    font-size: 16px;
+    color: #000;
+    border: none;
+}
+.qtdRecep input[type='text']{
+    width: 242px;
+}
+.qtdMed input[type='text']{
+    width: 210px;
+}
+.qtdTol input[type='text']{
+    width: 290px;
+}
+.qtdRecep input[type='text']::placeholder, .qtdMed input[type='text']::placeholder, .qtdTol input[type='text']::placeholder{
+    color: #858FA1;
+}
+.persResul{
+    width: 479.2px;
+    height: 366.2px;
+    margin-top: 52px;
+    padding: 25px 0 0 10px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+}
+.valResul{
+    width: 479.2px;
+    height: 79px;
+}
+.valResul h1{
+    margin: 0;
+    font-size: 30px;
+    color: #546582;
+    float: left;
+}
+#moeda{
+    margin: 0 0 25px 51px;
+}
+#valorVari{
+    margin: 0 0 25px 0;
+}
+.receResul, .medResul, .funResul, .toleResul{
+    height: 22px;
+}
+.receResul, .medResul, .funResul{
+    margin-bottom: 20px;
+}
+.toleResul{
+    margin-bottom: 50px;
+}
+.receResul svg, .medResul svg, .funResul svg, .toleResul svg{
+    margin: 0 14px 0 0;
+    float: left;
+}
+.receResul p, .medResul p, .funResul p, .toleResul p{
+    margin: 0;
+    float: left;
+}
+
+#receResul, #medResul, #toleResul{
+    margin: 0 5px 0 0;
+}
+#toleResul{
+    margin: 0 5px;
+}
+.itensResul input[type='submit']{
+    width: 462px;
+    height: 55px;
+    color: #fff;
+    background-color: #1CC4BF;
+    border: none;
+    border-radius: 8px;
+}
+.itensResul input[type='submit']:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.itensResul input[type='submit']:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}
+.formasPag{
+    width: 1080px;
+    height: 437px;
+    margin: 0 auto;
+    text-align: center;
+}
+.formasPag hr{
+    border: 1px solid rgba(196, 196, 196, 0.5);
+}
+.formasPag h1{
+    margin: 46px 0 0 0;
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+    color: #1CC4BF;
+}
+.formasPag img{
+    margin: 46px 0;
+}

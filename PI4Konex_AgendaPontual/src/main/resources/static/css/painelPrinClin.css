@@ -1,0 +1,178 @@
+@import url('global.css');
+
+.todo{
+    width: 1130px;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+}
+.links{
+    height: 80px;
+}
+.linkMeio{
+    height: 60px;
+    margin: 0 20px;
+    float: left;
+}
+.txtAlink {
+    height: 20px;
+    padding: 20px 30.4px;
+    background: #F7F8F9;
+    border-radius: 8px;
+    float: left;
+    font-size: 16px;
+    color: #505F79;
+}
+.txtAlink:hover{
+    background: #F7F8F9;
+    color: #B9BFC9;
+}
+.txtAlink:hover path, .txtAlink:hover rect{
+    fill: #B9BFC9;
+    
+}
+.txtAlink svg, .txtAlink p{
+    float: left;
+}
+.txtAlink svg{
+    margin-right: 10px;
+}
+.txtAlink p{
+    margin: 2px 0 0 0;
+}
+
+.esquerda{
+    width: 690px;
+    height: 582px;
+    float: left;
+}
+.esquerda img{
+    margin-bottom: 14px;
+}
+.info{
+    width: 200px;
+    height: 108px;
+    padding: 40px 0 0 20px;
+    background: #F2E4FD;
+    border-radius: 8px;
+    float: left;
+}
+.info p{
+    font-size: 14px;
+    margin: 18px 0 3px 0;
+}
+.info h1{
+    margin: 0;
+    font-size: 22px;
+}
+#feed{
+    background: #F2E4FD;
+    color: rgba(30, 0, 129, 0.7);
+}
+#med{
+    background: #EBF9DF;
+    margin: 0 15px;
+    color: rgba(6, 74, 79, 0.7);
+}
+#recep{
+    background: rgba(0, 82, 204, 0.1);
+    color: rgba(0, 54, 135, 0.7);
+}
+.melEsp{
+    width: 396px;
+    height: 534px;
+    padding: 40px 0 0 20px;
+    margin-left: 20px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.melEsp h1{
+    font-size: 18px;
+    color: #546582;
+}
+.melEsp:hover{
+    border: 1.4px solid #858FA1;
+}
+/*scroll tabela*/
+#tbNot tbody::-webkit-scrollbar {
+    width: 2px;
+}
+  
+/* Track */
+#tbNot tbody::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px #E8E8E8; 
+border-radius: 10px;
+}
+   
+/* Handle */
+#tbNot tbody::-webkit-scrollbar-thumb {
+background: #546582; 
+}
+  
+/* Handle on hover */
+#tbNot tbody::-webkit-scrollbar-thumb:hover {
+    background: #546582; 
+}
+/*fim scroll*/
+#tbNot{
+    width: 370px;
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+    color: #546582;
+}
+#tbNot thead{
+    width: 370px;
+    height: 60px;
+    display: inline-block;
+}
+#tbNot tbody{
+    width: 380px;
+    height: 410px;
+    display: inline-block;
+    overflow: auto;
+}
+#tbNot tr{
+    width: 370px;
+    height: 60px;
+    border-bottom: 1.4px solid rgba(80, 95, 121, 0.1);
+}
+#tbNot th{
+    font-weight: 500;
+    padding: 0;
+    color: rgba(84, 101, 130, 0.3);
+}
+#tbNot td{
+    padding: 0;
+}
+#nomeTb {
+    width: 168px;
+}
+#nomeTb img{
+    width: 40px;
+    height: 40px;
+}
+#nomeTb img, #nomeTb p{
+    float: left;
+}
+#nomeTb p{
+    margin: 12.222px 0 0 10px;
+    font-weight: bold;
+    color: #1CC4BF;
+}
+#espcTb{
+    width: 142px;
+}
+#pntTb{
+    width: 60px;
+}
+.ponto{
+    width: 60px;
+    height: 20px;
+    padding-top: 7px;
+    background: rgba(0, 82, 204, 0.1);
+    border-radius: 6px;
+    color: #546582;
+    text-align: center;
+    font-weight: 500;
+}

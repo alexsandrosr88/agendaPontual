@@ -1,0 +1,301 @@
+@import url(global.css);
+
+body{
+    width: 1400px;
+    margin: 0 auto;
+}
+#dashCli{
+    border-right: solid 4px #166CD0;
+}
+#dashCli a{
+    color: #166CD0;
+}
+#dashCli rect{
+    fill: #166CD0;
+}
+.todo{
+    width: 828px;
+    MAX-height: 769PX;
+    margin-top: 91px;
+    padding: 27px 0 0 55px;
+    height: 100%;
+    float: left;
+    border-top: 1px solid rgba(84, 101, 130, 0.3);
+    font-family: 'Mulish', sans-serif;
+}
+.titulo {
+    height: 55px;
+}
+.titulo svg{
+    float: left;
+}
+.titulo h1{
+    margin: 0 0 0 10px;
+    float: left;
+    font-size: 20px;
+    color: #166CD0;
+}
+.consultaAgen{
+    width: 797px;
+    height: 170px;
+    margin-bottom: 36px;
+    padding: 12px 0 0 28px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+}
+.consultaAgen h2{ 
+    margin: 0 0 35px 0;
+    font-size: 17px;
+    color: #505F79;
+}
+.consultaAgen h3{
+    font-size: 15px;
+    color: #1CC4BF;
+}
+.consultaAgen img{
+    margin-right: 18px;
+    float: left;
+}
+.consultaAgen p{
+    font-size: 14px;
+    color: #505F79;
+}
+.consultaAgen input[type='submit']{
+    width: 122.57px;
+    height: 40px;
+    background: #1CC4BF;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15.5px;
+}
+.dadosAgen{
+    width: 450px;
+    float: left;
+}
+#svg{
+    margin-right: 10px;
+}
+#btnAgen{
+    margin: 68px 0 0 197px;
+    float: left;
+}
+.esquerdaBaixo{
+    float: left;
+}
+.notifica{
+    width: 499px;
+    height: 276px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px; 
+}
+.notifica h2{
+    margin: 20px 0 30px 20px;
+    font-size: 17px;
+    color: #505F79; 
+}
+.notifica thead {
+    display: inline-block;
+    width: 489px;
+    height: 30px;
+}
+.notifica tbody {
+    height: 150px;
+    display: inline-block;
+    width: 489px;
+    overflow: auto;
+}
+.notifica th{
+    font-size: 15px;
+    color: #1CC4BF;
+}
+.notifica td{
+    font-size: 14px;
+    color: #505F79;
+}
+/*scroll tabela*/
+::-webkit-scrollbar {
+    width: 2px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px #E8E8E8; 
+border-radius: 10px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #546582; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #546582; 
+}
+/*fim scroll*/
+#tbNot {
+    border-collapse: collapse;
+}
+  
+#tbNot td, #tbNot th {
+    height: 20px;
+    padding: 5px;
+}
+  
+#tbNot tr:nth-child(even){
+    background: rgba(185, 191, 201, 0.1);
+}
+#remeTb{
+    width: 177px;
+}
+#agenTb{
+    width: 197px;
+}
+#dataTb{
+    width: 83px;  
+}
+/*css checkbox*/
+.container-label{
+    width: 1px;
+    height: 1px;
+    margin-right: 10px;
+    float: left;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #424242;
+    font-weight: 400;
+}
+  
+.container-label input{
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+  
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 2px;
+}
+.container-label input:checked ~ .checkmark{
+    background-color: #1CC4BF;
+    border: none;
+}
+  
+.checkmark::after{
+    display: none;
+    content: '';
+    position: absolute;
+}
+  
+.container-label .checkmark::after{
+    content: '';
+   left: 4px;
+   top: 0px;
+   width: 5px;
+   height: 9px;
+   transform: rotate(45deg);
+   border-right: 3px solid #fff;
+   border-bottom: 3px solid #fff;
+  
+}
+  
+.container-label input:checked ~ .checkmark::after{
+    display: block;
+}
+/*fim css checkbox*/
+
+.assuntoNot{
+    width: 492px;
+    height: 93px;
+    margin-top: 40px;
+    padding: 10px 0 0 10px;
+    background: #F4F9FF;
+    border-radius: 8px;
+}
+.assuntoNot p{
+    width: 479px;
+    height: 83px;
+    margin: 0;
+    display: inline-block;
+    overflow: auto;
+    font-size: 14px;
+}
+
+.msgForm{
+    width: 259px;
+    height: 259px;
+    padding: 19px 0 0 24px;
+    margin-left: 40px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.msgForm h2{
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    font-size: 17px;
+    color: #505F79;
+}
+
+.msgForm p{
+	width: 236px;
+    height: 195px;
+	overflow-y: auto;
+}
+.textoMsg{
+    width: 236px;
+    height: 195px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+}
+.textoMsg textarea{
+    width: 215px;
+    height: 175px;
+    margin: 12px 0 0 10px;
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+}
+.textoMsg textarea::placeholder{
+    color:#858FA1;
+}
+.resMsg{
+    width: 191px;
+    height: 37px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.resMsg input[type="text"]{
+    width: 177px;
+    height: 32px;
+    margin: 3px 0 0 6px;
+    border: none;
+}
+.resMsg input[type="text"]::placeholder{
+    color: #B9BFC9;
+}
+.assunMsg:hover, .textoMsg:hover, .resMsg:hover{
+    border: 1.4px solid #858FA1;
+}
+.consultaAgen input[type='submit']:hover, .msgForm button:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.consultaAgen input[type='submit']:focus, .msgForm button:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}

@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    border:0;
+}
+#container-landing{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+#container-landing .menu-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:33px 0 0 0;
+    margin-bottom:67.3px;
+}
+#container-landing ul{
+    position: relative;
+    bottom:15px;
+}
+#container-landing ul li{
+    display: inline;
+    padding: 0 30px;
+    color:#546582;
+    font:normal 16px 'Mulish', sans-serif;
+    cursor:pointer;
+}
+#container-landing ul li:nth-child(2){
+    position:relative;
+    top:10px;
+}
+#container-landing ul li span{
+    margin-left:20px;
+    position:relative;
+    bottom:4px;
+}
+#container-landing .main-page{
+    margin-bottom:56px;
+}
+#container-landing .active-economy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:67px;
+    width:471px;
+}
+#container-landing .active-economy .button-active{
+    margin-right:30px;
+    padding:17px;
+    background: #1CC4BF;
+    border-radius: 6px;
+    color:#fff;
+    font:600 14px 'Mulish', sans-serif;
+}
+#container-landing .active-economy .button-active span{
+    margin-left:10px;
+    position:relative;
+    bottom:3px;
+}
+#container-landing .economy{
+    background: rgba(28, 196, 191, 0.07);
+    border-radius: 6px;
+    color:#1CC4BF;
+    font:600 14px 'Mulish', sans-serif;
+    height:100%;
+    padding:20px 5px;
+}
+#container-landing .main-container-page{
+    position:relative;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#container-landing .profile-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-radius: 8px;
+    width:676px;
+    padding:18px;
+    margin-bottom:30px;
+}
+#container-landing .profile-container .data-profile{
+   margin:0 0 10px 40px;
+}
+#container-landing .profile-container .data-profile p:first-child{
+    font-weight:600;
+    background: rgba(84, 101, 130, 0.8);
+    border-radius: 4px;
+    color:#fff;
+    width:67px;
+    text-align: center;
+    padding:5px;
+}
+#container-landing .data-profile > h3{ 
+   font:800 18px 'Mulish', sans-serif;
+   color:#1CC4BF;
+   line-height: 23px;
+   letter-spacing:0.3;
+}
+#container-landing .data-profile > p{
+    font:normal 14px 'Mulish', sans-serif;
+    color: rgba(80, 95, 121, 1);
+    margin-bottom:20px;
+}
+#container-landing .service-status{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:23px;
+    position:relative;
+}
+#container-landing .service-status span{
+    font:400 13px 'Mulish', sans-serif;
+    color:#505F79;
+}
+#container-landing .service-status img.happy-face, img.sad-face{
+    margin-right:11.46px;
+}
+#container-landing .service-status img.sad-face{
+    margin-left:22px;
+}
+#container-landing .service-status .first{
+    margin:0 22px 3px 11.26px;
+}
+#container-landing .service-status .number1, .number2{
+    font:400 13px 'Mulish', sans-serif;
+    color:#505F79;
+    line-height:16px;
+    position:relative;
+    bottom:4px;
+}
+#container-landing .records-profile h3{
+    color:#1CC4BF;
+    font:bold 18px 'Mulish', sans-serif;
+    margin-bottom:18px;
+}
+#container-landing .records-profile p{
+    font:400 14px 'Mulish', sans-serif;
+    color:#505F79;
+}
+#container-landing .first-container{
+    width: 620px;
+    border-right: 1px solid rgba(196, 196, 196, 0.2)
+}
+#container-landing .biography{
+    margin-left:19px;
+}
+#container-landing .biography h3{
+    margin-bottom:20px;
+    color:#546582;
+}
+#container-landing .biography p{
+    color:#858FA1;
+}
+#container-landing .biography p:not(p:last-child){
+    margin-bottom:18px;
+}
+#container-landing .condition-container{
+    padding:64px 40px;
+}
+.condition-container{
+    width:100%;
+}
+.condition-container h3{
+    margin-bottom:22px;
+    font:bold 18px 'Mulish', sans-serif;
+    color:#546582;
+}
+.condition-container p:nth-child(3){
+    margin-bottom:31px;
+}
+.condition-container p, .condition-container span{
+    font:normal 14px 'Mulish', sans-serif;
+    color:#505F79;
+}
+.condition-container .treatment{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.condition-container .first-list div,
+.condition-container .second-list div{
+    margin-bottom:10px;
+}
+.condition-container span{
+    margin-left:10px;
+    position:relative;
+    bottom:3px;
+}
+.local-calendar{
+    margin:40px 0 100px 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.local-calendar .week-calendar{
+    margin-right:22px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    padding:20px;
+    width:100%;
+}
+.local-calendar .week-calendar h3{
+    font:bold 18px 'Mulish', sans-serif;
+    color:#546582;
+    margin-bottom:22px;
+}
+.local-calendar .week-calendar .table{
+    border: 1.4px solid rgba(133, 143, 161, 0.1);
+    border-radius: 8px;
+    padding:10px;
+}
+.local-calendar .week-calendar table{
+    width:100%;
+    color:#505F79;
+}
+.local-calendar .week-calendar table tr td{
+   padding:3.52px 0 3.52px 18px;
+}
+.local-calendar .week-calendar table th{
+    background: #1CC4BF;
+    border-radius: 4px;
+    padding:3px 0;
+    color:#fff;
+}
+.local-calendar .additional-information{
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    width:100%;
+    padding:20px;
+}
+.local-calendar .additional-information .input-block{
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    padding:8px 15px;
+    width:100%;
+}
+.local-calendar .additional-information .first-block .input-block:nth-child(2),
+.local-calendar .additional-information .second-block .input-block:nth-child(2){
+    background: rgba(0, 82, 204, 0.1);
+}
+.local-calendar .additional-information .first-block .input-block:nth-child(1),
+.local-calendar .additional-information .second-block .input-block:nth-child(1){
+    margin-right:15px;
+}
+.local-calendar .additional-information .third-block .input-block:nth-child(2){
+    margin:0 15px;
+}
+.local-calendar .additional-information .second-block{
+    margin:15px 0;
+}
+.local-calendar .additional-information .first-block,
+.local-calendar .additional-information .second-block,
+.local-calendar .additional-information .third-block{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.local-calendar .input-block > p{
+    font:normal 10px 'Mulish', sans-serif;
+    color:#B9BFC9;
+}
+.local-calendar .input-block input{
+    width:100%;
+}
+.local-calendar .input-block input::placeholder{
+    font-size:14px;
+    color: rgba(133, 143, 161, 0.6);
+}
+.local-calendar .additional-information .second-block .input-block:nth-child(2){
+    width:50%;
+}
+.local-calendar span{
+    color:#505F79;
+}
+.local-calendar .third-block .input-block:nth-child(1){
+   display:flex;
+   flex-direction: row;
+   padding:15px 0;
+}
+.local-calendar input[type="checkbox"]{
+    transform: scale(1.5);
+    position:relative;
+    top:5px;
+}
+.local-calendar span{
+    position:relative;
+    right:10px;
+}

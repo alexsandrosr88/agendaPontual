@@ -1,0 +1,31 @@
+@import url(global.css);
+/*
+    Este é o css para o menu.
+*/
+.menu{
+    width: 100%;
+    height: 97px;
+    position: relative;
+    top: 0;
+}
+.itensMenu{
+    width: 1080px;
+    height: 64px;
+    margin: 0 auto;
+    padding-top: 31px;
+}
+#logoMenu{
+    float: left;
+    margin-right: 389px;
+}
+.textoMenu{
+    float: left;
+    margin-top: 21px;
+}
+.textoMenu a{
+    margin-left: 80px;
+
+    font-family: 'Mulish', sans-serif;
+    color: rgba(84, 101, 130, 0.9);
+    font-size: 18px;
+}

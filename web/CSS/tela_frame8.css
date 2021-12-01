@@ -1,0 +1,321 @@
+@import url(global.css);
+
+body{
+    width: 1400px;
+    margin: 0 auto;
+}
+#feedback{
+    border-right: solid 4px #166CD0;
+}
+#feedback a{
+    color: #166CD0;
+}
+#feedback path{
+    stroke: #166CD0;
+}
+
+.todo{
+    width: 828px;
+    MAX-height: 769PX;
+    margin-top: 91px;
+    padding: 27px 0 0 55px;
+    height: 100%;
+    float: left;
+    border-top: 1px solid rgba(84, 101, 130, 0.3);
+    font-family: 'Mulish', sans-serif;
+}
+.titulo {
+    height: 50px;
+}
+.titulo svg{
+    float: left;
+    margin-top: 4px;
+}
+.titulo h1{
+    margin: 0 0 0 10px;
+    float: left;
+    font-size: 25px;
+    color: #166CD0;
+}
+.daFeed{
+    width: 476px;
+    height: 532px;
+    margin-right: 22px;
+    padding: 20px 0 0 30px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+#tituloDaFeed{
+    width: 187px;
+    height: 70px;
+    margin: 0 0 35px 0;
+    font-size: 25px;
+    line-height: 31px;
+    color: #546582;
+}
+.esquerdaDaFeed{
+    float: left;
+    margin-right: 85px;
+}
+.quem{
+    width: 192px;
+    height: 179px;
+    margin-bottom: 49px;
+}
+.quem h3, .msgDaFeed h3{
+    font-size: 16px;
+    line-height: 20px;
+    color: #546582;
+    margin: 0 0 15px 0;
+}
+.quem p{
+    height: 30px;
+    margin: 6px 0px;
+}
+.quem .option-radio{
+    border-radius: 8px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+}
+.quem input[type="radio"] {
+    margin: 3px 3px 0px 0px;
+}
+.msgDaFeed textarea{
+    width: 185.42px;
+    height: 134px;
+    padding: 8px 0 0 10px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    resize: none;
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+    color: #000;
+    outline: none;
+}
+.msgDaFeed textarea::placeholder{
+    color: #B9BFC9;
+}
+.msgDaFeed textarea:hover{
+    border: 1.4px solid #858FA1;
+}
+.direitaDaFeed{
+    width: 186px;
+    float: left;
+}
+#CodConsul{
+    width: 171px;
+    height: 50px;
+    margin-bottom: 55px;
+    padding-left: 14px;
+    background: #F4F9FF;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    color: #546582;
+}
+#nota{
+    width: 183px;
+}
+.notaGeral{
+    height: 120px;
+}
+.notaPont{
+    height: 134px;
+}
+.notaGeral input[type="text"]{
+    width: 190px;
+    height: 20px;
+    margin: 0 0 28px 0;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #546582;
+}
+.notaGeral h3, .notaPont h3{
+    font-size: 16px;
+    line-height: 20px;
+    color: #546582;
+}
+.notaGeral h3{
+    height: 20px;
+    margin: 0 0 28px 0;
+}
+.notaPont h3{
+    height: 40px;
+    margin: 0 0 28px 0;
+}
+.notaGeral p, .notaPont p{
+    width: 20px;
+    margin: 0 2px;
+    float: left;
+}
+#ValorDaNota, #ValorDaNota2{
+    margin: 0 54px 0 64px;
+}
+.notaGeral .slider::-moz-range-thumb, .notaPont .slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #1CC4BF;
+    cursor: pointer;
+}
+.notaGeral .slider::-webkit-slider-thumb, .notaPont .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #1CC4BF;
+    border: 5px solid #edeff2;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.notaGeral .slider, .notaPont .slider{
+    -webkit-appearance: none;
+    width: 183px;
+    height: 4px;
+    margin-bottom: 15px;
+    background: #1CC4BF;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+.indent {
+    height: 100px;
+}
+.indent h3{
+    margin: 0 0 14px 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #546582;
+}
+.indent .option-check{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 4px;
+    border: 1.4px solid #1CC4BF;
+}
+.indent .option-check:checked{
+    border: none;
+}
+.indent input[type="checkbox"] {
+    margin: 3px 3px 0px 0px;
+}
+.indent .option-check:checked::before {
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.direitaDaFeed input[type="submit"]{
+    width: 185.42px;
+    height: 40px;
+    background: #1CC4BF;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+}
+.direitaDaFeed input[type='submit']:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.direitaDaFeed input[type='submit']:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}
+.semFeed{
+    width: 272px;
+    height: 532px;
+    padding: 20px 0 0 22px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.semFeed h1{
+    width: 210px;
+    height: 70px; 
+    margin: 0 8px 40px 0;
+    font-size: 25px;
+    line-height: 31px;
+    color: #546582;
+}
+
+.tbfeed{
+    border-collapse: collapse;
+}
+.tbfeed table{
+    width: 250px;
+}
+.tbfeed th{
+    text-align: center;
+    font-size: 15px;
+    line-height: 19px;
+    color: #1CC4BF;
+    font-weight: normal;
+}
+
+.tbfeed thead {
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+}
+.tbfeed tbody {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    overflow: auto;
+}
+.tbfeed td{
+    font-size: 15px;
+    line-height: 19px;
+    color: #505F79;
+}
+.tbfeed td button{
+    width: 16px;
+    height: 16px;
+    margin: 0 8px 0 12px;
+    border: 1px solid #1CC4BF;
+    border-radius: 16px;
+    background-color: #fff;
+}
+.tbfeed tr:nth-child(even){
+    background: rgba(185, 191, 201, 0.1);
+}
+#codTb{
+    width: 132px;
+    text-align: center;
+}
+#codTb .option-radio{
+    top: 3px;
+    width: 16px;
+    height: 16px;
+}
+#codTb input[type="radio"] {
+    margin: 3px 3px 0px 0px;
+}
+#nomeTb{
+    width: 125px;
+    font-weight: bold;
+}
+/*scroll tabela*/
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #E8E8E8; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #546582; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #546582; 
+}
+/*fim scroll*/

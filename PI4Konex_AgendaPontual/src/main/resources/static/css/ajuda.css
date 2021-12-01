@@ -1,0 +1,146 @@
+@import url(global.css);
+
+body{
+    width: 1400px;
+    margin: 0 auto;
+    height: 860px;
+}
+
+#ajuda{
+    border-right: solid 4px #166CD0;
+}
+#ajuda a{
+    color: #166CD0;
+}
+#ajuda rect{
+    fill: #166CD0;
+}
+.todo{
+    width: 909px;
+    MAX-height: 769PX;
+    margin-top: 91px;
+    padding: 27px 0 0 55px;
+    height: 100%;
+    float: left;
+    border-top: 1px solid rgba(84, 101, 130, 0.3);
+    font-family: 'Mulish', sans-serif;
+}
+.titulo {
+    height: 55px;
+}
+.titulo svg{
+    float: left;
+}
+.titulo h1{
+    margin: 0 0 0 10px;
+    float: left;
+    font-size: 20px;
+    color: #166CD0;
+}
+.suasInfo{
+    width: 795px;
+    height: 399px;
+    padding: 20px 0 0 30px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+}
+
+.nomeInfo, .cpfInfo, .dataInfo, .emailInfo, .senhaInfo, .rgInfo, .celInfo, .sexInfo, .endereInfo, .edeNumInfo, .cepInfo, .complemento{
+    height: 50px;
+    padding: 10px 0 0 13px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.nomeInfo p, .cpfInfo p, .dataInfo p, .emailInfo p, .senhaInfo p, .rgInfo p, .celInfo p, .sexInfo p, .endereInfo p, .edeNumInfo p, .cepInfo p, .complemento p{
+    margin: 0 0 5px 0;
+    font-size: 10px;
+    color: #B9BFC9;  
+}
+.nomeInfo input, .cpfInfo input, .dataInfo input, .emailInfo input, .senhaInfo input, .rgInfo input, .celInfo input, .sexInfo input, .endereInfo input, .edeNumInfo input, .cepInfo input, .complemento input{
+    background: transparent;
+    font-size: 16px;
+    padding: 0;
+    border: none;
+}
+.nomeInfo, .cpfInfo, .emailInfo, .senhaInfo, .celInfo, .sexInfo, .edeNumInfo, .cepInfo, .complemento{
+    margin-right: 15px;
+}
+.nomeInfo, .cpfInfo, .dataInfo, .emailInfo, .senhaInfo, .rgInfo, .celInfo, .sexInfo, .endereInfo{
+    margin-bottom: 15px;
+}
+.sexInfo{
+    width: 124px;
+}
+.endereInfo{
+    width: 363px;
+}
+.dataInfo, .rgInfo{
+    width: 158px;
+}
+.cpfInfo, .senhaInfo{
+    width: 251px;
+}
+.celInfo, .complemento{
+    width: 205px;
+}
+.edeNumInfo, .cepInfo{
+    width: 121px; 
+}
+.cpfInfo, .rgInfo{
+    background: #F4F9FF;
+}
+.nomeInfo, .emailInfo{
+    width: 290px;
+}
+.nomeInfo input, .emailInfo input{
+    width: 275px;
+    height: 20px;
+}
+.endereInfo input{
+    width: 340px;
+}
+.dataInfo input, .rgInfo input{
+    width: 149px;
+}
+.cpfInfo input, .senhaInfo input{
+    width: 230px;
+}
+.celInfo input, .complemento input{
+    width: 193px;
+}
+.edeNumInfo input, .cepInfo input{
+    width: 110px; 
+}
+.sexInfo{
+    padding-top: 20px;
+    height: 40px;
+}
+.sexInfo svg{
+    margin: 0;
+    float: left;
+}
+.sexInfo h3{
+    margin: 2px 0 0 15px;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    color: #546582;
+}
+.suasInfo input[type='submit']{
+    width: 235px;
+    height: 60px;
+    background: #1CC4BF;
+    border: none;
+    border-radius: 8px;
+    float: left;
+    color: #fff;
+    font-size: 15.5px;
+}
+.suasInfo input[type='submit']:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.suasInfo input[type='submit']:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}

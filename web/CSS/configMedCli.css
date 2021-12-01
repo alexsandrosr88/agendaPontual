@@ -1,0 +1,293 @@
+@import url('global.css');
+
+.todo{
+    width: 1130px;
+    height: 1204px;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+}
+#voltar{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 60px;
+}
+#titulo{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 45px;
+}
+#titulo svg{
+    float: left;
+}
+#titulo h1{
+    margin: 0 0 0 10px;
+    float: left;
+    font-size: 25px;
+    color: #166CD0;
+}
+.dados{
+    width: 1089px;
+    height: 930px;
+    padding: 38px 0 0 37px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+}
+
+.dados input{
+    border: none;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+}
+.dados input:disabled{
+    background: none;
+}
+.dados::placeholder{
+    color: #858FA1;
+}
+.dados button{
+    width: 165px;
+    height: 60px;
+    margin-top: 64px;
+    background: #1CC4BF;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 15.5px;
+}
+.dados button:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.dados button:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}
+.topoDados{
+    width: 300px;
+    height: 90px;
+    margin-bottom: 84px;
+}
+.topoDados img, .topoDados h1, .topoDados p{
+    float: left;
+    margin: 0;
+}
+.topoDados img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 28px;
+}
+.topoDados h1{
+    font-size: 25px;
+    color: #546582;
+}
+.topoDados p{
+    font-size: 16px;
+    color: #858FA1;
+    margin: 3px 0 15px 0;
+}
+#attFt{
+    font-size: 14px;
+    color: #1CC4BF;
+}
+.nome, .cpf, .emailDados, .senha, .sexo, .data, .rg, .tel, .log, .num, .cep, .comp{
+    height: 50px;
+    padding: 10px 0 0 13px;
+    margin-bottom: 15px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.nome:hover, .cpf:hover, .emailDados:hover, .senha:hover, .sexo:hover, .data:hover, .rg:hover, .tel:hover, .log:hover, .num:hover, .cep:hover, .comp:hover{
+    border: 1.4px solid #858FA1;
+}
+.nome, .cpf, .senha, .sexo, .data, .rg, .log, .num, .cep{
+    margin-right: 15px;
+}
+.nome p, .cpf p, .emailDados p, .senha p, .data p, .rg p, .tel p, .log p, .num p, .cep p, .comp p{
+    margin: 0 0 5px 0;
+    font-size: 10px;
+    color: #B9BFC9;
+}
+.nome, .emailDados{
+    width: 349px;
+}
+.nome input, .emailDados input{
+    width: 337px;
+}
+.tel, .comp, .rg{
+    width: 205px;
+}
+.tel input, .comp input, .rg input{
+    width: 193px;
+}
+.num, .cep{
+    width: 131px;
+}
+.num input, .cep input{
+    width: 116px;
+}
+.cpf{
+    width: 290px;
+}
+.cpf input{
+    width: 246px;
+}
+.senha{
+    width: 238px;
+}
+.senha input{
+    width: 224px;
+}
+.sexo{
+    width: 129px;
+    height: 40px;
+    padding-top: 20px;
+}
+.sexo svg, .sexo h3{
+    float: left;
+}
+.sexo svg{
+    margin-right: 15px;
+}
+.sexo h3{
+    margin: 0;
+    font-size: 16px;
+    color: #505F79;
+    font-weight: 400;
+}
+.data{
+    width: 150px;
+}
+.data input{
+    width: 145px;
+}
+.log{
+    width: 490px;
+}
+.log input{
+    width: 475px;
+}
+.inputs{
+    height: 160px;
+    margin-bottom: 60px;
+}
+.subTitulo{
+    height: 25px;
+    margin-bottom: 29px;
+    clear: both;
+}
+.subTitulo svg{
+    float: left;
+    margin-right: 11px;
+}
+.subTitulo h1{
+    float: left;
+    font-size: 18px;
+    color: #546582;
+    margin: 0;
+}
+.doencas{
+    height: 120px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+.colunaDoencas{
+    width: 264px;
+    float: left;
+}
+.doenca{
+    width: 255px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.doenca p{
+    font-size: 14px;
+    float: left;
+    margin: 0;
+    color: #505F79;
+}
+.doenca svg{
+    margin: 1px 15px 0 0;
+    float: left;
+}
+#ativo{
+    fill:#1CC4BF;
+    stroke: #1CC4BF;
+}
+#desativado{
+    fill:#B9BFC9;
+} 
+.calendario{
+    width: 465px;
+    height: 115px;
+    padding: 20px 0 0 15px;
+    border: 1.4px solid rgba(133, 143, 161, 0.1);
+    border-radius: 8px;
+}
+/*scroll tabela*/
+#tbNot tbody::-webkit-scrollbar {
+    width: 2px;
+}
+  
+/* Track */
+#tbNot tbody::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px #E8E8E8; 
+border-radius: 10px;
+}
+   
+/* Handle */
+#tbNot tbody::-webkit-scrollbar-thumb {
+background: #546582; 
+}
+  
+/* Handle on hover */
+#tbNot tbody::-webkit-scrollbar-thumb:hover {
+    background: #546582; 
+}
+/*fim scroll*/
+#tbNot{
+    width: 436px;
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+    color: #546582;
+}
+#tbNot thead{
+    width: 436px;
+    margin-bottom: 3.5px;
+    height: 21.11px;
+    display: inline-block;
+}
+#tbNot tbody{
+    width: 436px;
+    height: 62.37px;
+    display: inline-block;
+    overflow: auto;
+}
+#tbNot tr{
+    width: 372px;
+    height: 21.11px;
+}
+#tbNot th{
+    width: 62.63px;
+    height: 21.11px;
+    padding:0 5px;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(84, 101, 130, 0.3);
+}
+#tbNot td{
+    width: 62.63px;
+    height: 21.11px;
+    padding: 0 5px;
+    text-align: center;
+}
+.fundoTh{
+    width: 62.63px;
+    height: 18.11px;
+    padding-top: 3px;
+    background: #1CC4BF;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+}

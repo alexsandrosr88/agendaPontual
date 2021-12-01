@@ -1,0 +1,59 @@
+@import url(global.css);
+body{
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+.menulat{
+    width: 274px;
+    min-height: 100%;
+    float: left;
+    padding-left: 81px;
+    border-right: 1px solid rgba(84, 101, 130, 0.2);
+    font-family: 'Mulish', sans-serif;
+    color: #546582;
+    position: relative;
+}
+.menulat p{
+    width: 241px;
+    height: 33px;
+    margin: 14px 0 0 30px;
+    padding-top: 16px;
+    font-size: 16px;
+}
+.menulat svg{
+    margin-right: 24px;
+}
+#logoLat{
+    margin: 38px 0 85px 0;
+}
+.meioLat{
+    width: 274px;
+    height: 144px;
+    margin: 166px 0 10px 0;
+    padding: 12px 0 0 0;
+    border: 1px solid rgba(84, 101, 130, 0.2);
+    border-left: none;
+    border-right: none;
+}
+
+.bottomLat{
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+/*
+    Css para o id de cada pagina só precisa alterar o nome no css
+
+#dashCli{
+    border-right: solid 4px #166CD0;
+}
+#dashCli a{
+    color: #166CD0;
+}
+#dashCli rect{
+    fill: #166CD0;
+}
+*/

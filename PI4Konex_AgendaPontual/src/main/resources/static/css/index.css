@@ -1,0 +1,608 @@
+@import url(global.css);
+
+
+/*
+    css do gradient e da imagen da busca
+*/
+.topoIndex{
+    width: 100%;
+    height: 511px;
+    padding-top: 125px;
+    background-image: linear-gradient(to bottom, transparent 75%,  #e9effa);
+    clear: both;
+}
+.topoIndex img{
+    float: left;
+}
+/*
+    css da busca
+*/
+.imagenBusca{
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url("/image/trioIndex.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 727px 511px;
+}
+.busca{
+    width: 1080px;
+    height: 415px;
+    margin:  0 auto;
+}
+.itensBusca{
+    width: 478px;
+    float: left;
+}
+.itensBusca h1{
+    width: 455px;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    color: #546582;
+}
+.itensBusca h2{
+    width: 355px;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: #546582;
+}
+.selectBusca{
+    width: 103px;
+    height: 44px;
+    margin-right: 12px;
+    padding: 13px;
+    float: left;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    
+    font-family: 'Mulish', sans-serif;
+}
+.selectBusca:hover, .textoBusca:hover{
+    border: 1.4px solid #858FA1;
+}
+.selectBusca p, .textoBusca p{
+    margin: 0 auto 2px auto;
+    font-size: 15px;
+    color: rgba(80, 95, 121, 0.4);
+}
+.selectBusca select{
+	width: 97px;
+	height: 19px;
+}
+.selectBusca select, .textoBusca input{
+    font-weight: 600;
+    font-size: 15.5px;
+    border: none;
+    color: #505F79;
+}
+.textoBusca{
+    width: 303px;
+    height: 44px;
+    padding: 13px 10px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    float: left;
+    font-family: 'Mulish', sans-serif;
+}
+.textoBusca input{
+    width: 300px;
+    height: 19px;
+
+    font-weight: 600;
+    font-size: 15px;
+}
+#btnBusca{
+    width: 260px;
+    height: 60px;
+    margin-top: 26px;
+    border: transparent;
+    border-radius: 8px;
+    background-color: #1CC4BF;
+    
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+#btnBusca:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+#btnBusca:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}
+/*
+    ccs do background
+*/
+.fundo{
+    width: 100%;
+    background-image: linear-gradient(135deg, transparent 25%,  rgba(34, 196, 190, 0.1));
+}
+/*
+    css das especialidades mais procuradas
+*/
+.osMaisPro{
+    width: 1072px;
+    height: 266px;
+    padding-top: 76px;
+    margin: 0 auto;
+}
+.osMaisPro h1, .tituloPq h1{
+    margin-bottom: 19px;
+    margin-top: 0;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    color: #1CC4BF;
+}
+.osMaisPro input{
+    width: 143px;
+    height: 45px;
+    margin: 3px 3px;
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+    background: #F7F8F9;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 15.5px;
+    font-weight: 400;
+    text-align: center;
+    color: #505F79;
+}
+.osMaisPro input:hover{
+    color: #B9BFC9;
+}
+.osMaisPro input:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+    color: #fff;
+}
+#tam305{
+    width: 297px;
+}
+
+/*
+    css do porque nós somos os melhores?
+*/
+.pqMelhores{
+    height: 941px;
+    padding-top: 100px;
+}
+.tituloPq{
+    width: 1080px;
+    margin: 0 auto 102px auto;
+    clear: both;
+}
+.tituloPq p{
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: #546582;
+    
+}
+.pqQuadrados{
+    width: 1080px;
+    margin: 0 auto;
+}
+.maiorTempo, .pontualidade, .atendimento{
+    height: 282px;
+    padding:  55px 60px;
+    background: #fff;
+    background-image: linear-gradient(150deg, transparent 25%,  rgba(180, 180, 180, 0.089) 50%, transparent 75%);
+    border: 1px solid rgba(205, 205, 205, 0.06);
+    border-radius: 60px;
+    float: left;
+    box-shadow: 9px 12px 20px rgba(117, 117, 117, 0.144);
+
+    font-family: 'Mulish', sans-serif;
+}
+
+.maiorTempo h2, .pontualidade h2, .atendimento h2{
+    font-weight: 800;
+    font-size: 24px;
+    color: #546582;
+
+}
+.maiorTempo p, .pontualidade p, .atendimento p{
+    font-weight: normal;
+    font-size: 15px;
+    color: #505F79;
+}
+.maiorTempo,.atendimento{
+    width: 192.778px;
+}
+.pontualidade{
+    width: 267px;
+    margin: 0 29px;
+}
+/*
+    css da divisoria para empresas, divisoria canal de atendimento e da divisoria duvidas frequntes.
+*/
+.divParaEm, .divCanal, .divDuvidas{
+    width: 1080px;
+    height: 105px;
+    margin: 0 auto;
+}
+.divParaEm p, .divCanal p, .divDuvidas p{
+    margin: 0;
+    margin-right: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    color: #505F79;
+    float: left;
+}
+.barraPara, .barraCanal, .barraDuvidas{
+    height: 1px;
+    margin: 10px 0;
+    background-color: rgba(80, 95, 121, 0.1);
+    float: left;
+}
+.barraPara{
+    width: 917px;
+}
+.barraCanal{
+    width: 846px;
+}
+.barraDuvidas{
+    width: 847px;
+}
+/*
+    css das vantagens
+*/
+.vantagens{
+    width: 1080px;
+    height: 717px;
+    margin: auto;
+    font-family: 'Mulish', sans-serif;
+    color: #546582;
+    background-image: url("/image/Group78.png");
+    background-size: 550px 550px;
+    background-repeat: no-repeat;
+    background-position: top right;   
+}
+.vantagenTxt{
+    width: 470px;
+}
+.vantagenIntro {
+    width: 457px;
+}
+.vantagenIntro h1{
+    width: 412px;
+    margin: 0;
+    font-size: 30px;
+}
+.vantagenIntro p{
+    width: 403px;
+    margin: 20px 0 49px 0;
+    font-size: 16px;
+}
+.sgvsVan{
+    width: 69px;
+    margin: 0px 45px 0 0;
+    float: left;
+}
+.sgvsVan svg{
+    float: left;
+}
+#quadradoVan{
+    margin-top: 20px;
+}
+#linhaVan{
+    margin: 0 32.5px;
+}
+.vantagenquali{
+    width: 460px;
+    height: 91px;
+}
+.vantagenquali h3, .vantagenquali p, .vantagenquali2 h3, .vantagenquali2 p, .vantagenfeed h3, .vantagenfeed p{
+    float: left;
+    margin: 0 0 8px 0;
+}
+.vantagenquali h3, .vantagenquali2 h3, .vantagenfeed h3{
+    width: 148px;
+    font-size: 18px;
+}
+.vantagenquali p, .vantagenquali2 p, .vantagenfeed p{
+    width: 300px;
+    font-size: 16px;
+}
+.vantagenquali2{
+    width: 460px;
+    height: 91px;
+    margin: 30px 0 4px 0 ;
+}
+.vantagenfeed{
+    width: 460px;
+    height: 91px;
+    margin: 30px 0 4px 0 ;
+}
+.vantagenfeed h3{
+    margin-top: 10px;
+}
+/*
+    css da animacao
+*/
+[data-anima]{
+    opacity: 0;
+    transition: 2s;
+}
+[data-anima="top"]{
+    transform: translate3d(0,50px,0);
+}
+[data-anima].animacao{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+/*
+    css do canal de atendimento
+*/
+
+.canalAtend{
+    width: 1080px;
+    height: 732px;
+    margin: 0 auto;
+
+    font-family: 'Mulish', sans-serif;
+    color: #546582;
+}
+.atendTxt{
+    float: left;
+}
+.atendIntro h1{
+    width: 443px;
+    height: 76px;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+.atendIntro p{
+    width: 415px;
+    height: 40px;
+    margin: 0 0;
+    font-size: 16px;
+}
+.atendContato{
+    width: 291px;
+    height: 172px;
+    margin: 67px 124px 0 0 ;
+    padding: 60px 57.5px;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 9px 12px 20px rgba(117, 117, 117, 0.144);
+    background-image: linear-gradient(150deg, transparent 25%,  rgba(180, 180, 180, 0.089) 50%, transparent 75%);
+}
+.atendContato h2{
+    margin: 0 0 12px 0;
+    font-size: 20px;
+}
+.atendContato svg{
+    margin-right: 12px;
+    float: left;
+}
+.atendContato p{
+    width: 266px;
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    float: left;
+}
+#contatoInfo{
+    width: 299px;
+    height: 40px;
+}
+.atendForm{
+    width: 422px;
+    height: 421px;
+    margin-top: 76px;
+    padding: 70px 60px;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 9px 12px 20px rgba(117, 117, 117, 0.144);
+    float: left;
+    background-image: linear-gradient(150deg, transparent 25%,  rgba(180, 180, 180, 0.089) 50%, transparent 75%)
+}
+.atendForm h2{
+    width: 235px;
+    height: 50px;
+    margin: 0 0 24px 0;
+    font-size: 20px;
+}
+.atendForm button{
+    width: 422px;
+    height: 60px;
+    margin-top: 24px;
+    border: transparent;
+    border-radius: 8px;
+    background-color: #1CC4BF;
+    
+    font-family: 'Mulish', sans-serif;
+    font-size: 15.5px;
+    font-weight: 600;
+    color: #fff;
+}
+.atendForm button:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.atendForm button:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}
+.atendNome, .atendEmail, .atendMsg{
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+.atendNome:hover, .atendEmail:hover, .atendMsg:hover{
+    border: 1.4px solid #858FA1;
+}
+.atendNome, .atendEmail{
+    width: 395px;
+    height: 38px;
+    padding: 12px;    
+}
+.atendNome p, .atendEmail p, .atendMsg p{
+    margin: 0 0 4px 0;
+    font-size: 10px;
+}
+.atendNome input, .atendEmail input{
+    width: 392px;
+    outline: none;
+    border: none;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+}
+.atendEmail{
+    margin: 12px 0;
+}
+.atendMsg{
+    width: 395px;
+    height: 91px;
+    padding: 12px;    
+}
+.atendMsg textarea{
+    width: 399px;
+    height: 75px;
+    resize: none;
+    outline: none;
+    border: none;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+}
+.atendMsg textarea::placeholder{
+    color:#858FA1;
+}
+/*
+        css das duvidas frequentes.
+*/
+.duvidasFrequentes{
+    width: 100%;
+    height: 437px;
+    padding: 50px 0 66px 0;
+    background-color:rgba(100, 100, 100, 0.04);
+}
+.infoDuvidas{
+    width: 1080px;
+    margin: 0 auto;
+}
+#textDuvidas1, #textDuvidas2, #textDuvidas3, #textDuvidas4{
+    width: 540px;
+    height: 141px;
+    float: left;
+
+    font-family: 'Mulish', sans-serif;
+    color: #546582;
+}
+#textDuvidas1, #textDuvidas3{
+    width: 439px;
+    margin-right: 101px;
+}
+#textDuvidas1, #textDuvidas2{
+    margin-bottom: 76px;
+}
+#textDuvidas1 h2, #textDuvidas2 h2, #textDuvidas3 h2, #textDuvidas4 h2{
+    margin: 0 0 16px 0;
+    font-size: 20px;
+}
+#textDuvidas1 p, #textDuvidas2 p, #textDuvidas3 p, #textDuvidas4 p{
+    margin: 0;
+    font-size: 16px;
+}
+#textDuvidas1 p{
+    width: 424px;
+}
+#textDuvidas2 p{
+    width: 526px;
+}
+#textDuvidas3 p{
+    width: 405px;
+}
+#textDuvidas4 p{
+    width: 510px;
+}
+/*
+    css parceiros.
+*/
+.fundoParceiros{
+    width: 100%;
+    height: 277px;
+    padding: 82px 0 93px 0;
+}
+.parceiros{
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+.parceiros h1{
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+    color: #1CC4BF;
+}
+.logoParceiros{
+    height: 175px;
+    margin-top: 47px;
+}
+#bradesco, #samed, #porto, #amil, #metlife, #sulamerica, #samp, #promed, #hapvida, #allianz{
+    float: left;
+}
+#bradesco{
+    width: 196.25px;
+    height: 70px;
+    margin-bottom:9px;
+}
+#samed{
+    width: 137.14px;
+    height: 80px;
+    margin: 0 78px 0 65px; 
+}
+#porto{
+    width: 153.55px;
+    height: 55px;
+    margin: 8px 70px 16px 0; 
+}
+#amil{
+    width: 124px;
+    height: 46px;
+    margin: 16px 70px 4px 0; 
+}
+#metlife{
+    width: 167.66px;
+    height: 40px;
+    margin: 23px 0 21px 0;
+}
+#sulamerica{
+    width: 200px;
+    height: 100px;
+}
+#samp{
+    width: 144.91px;
+    height: 60px;
+    margin: 21px 65px 0 65px; 
+}
+#promed{
+    width: 167px;
+    height: 51px;
+    margin: 25px 56px 0 0; 
+}
+#hapvida{
+    width: 166.23px;
+    height: 40px;
+    margin: 31px 55px 0 0; 
+}
+#allianz{
+    width: 142.21px;
+    height: 35px;
+    margin: 31px 0 0 0;
+}
+.abobrinha1{
+    height: 78px;
+}
+.abobrinha1, .abobrinha{
+    border: solid 1px #000;
+}

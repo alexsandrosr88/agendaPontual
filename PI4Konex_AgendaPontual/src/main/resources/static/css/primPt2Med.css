@@ -1,0 +1,40 @@
+@import url('global.css');
+
+
+
+.todo{
+    width: 556px;
+    height: 553px;
+    margin: 0 auto;
+    padding-top: 250px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+}
+button{
+    background: transparent;
+    border: none;
+}
+.todo h1{
+    width: 491px;
+    height: 81px;
+    font-size: 33px;
+    color: #505F79;
+    margin: 37px 0 20px 0;
+}
+.todo p{
+    width: 556px;
+    height: 110px;
+    margin: 0 0 37px 0;
+    font-size: 22px;
+    color: #546582;
+}
+.todo h2{
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 22px;
+    font-weight: normal;
+    color: #1CC4BF;
+}
+.todo h1, .todo p, .todo a{
+    display:inline-block;  
+}

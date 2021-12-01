@@ -1,0 +1,549 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    list-style: none;
+    border:0;
+}
+body{
+    height:470vh;
+}
+#container-landing{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+#container-landing .scroll-up-down{
+    overflow:auto;
+}
+#container-landing .menu-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:33px 0 0 0;
+    margin-bottom:67.3px;
+}
+#container-landing ul li{
+    display: inline;
+    padding: 0 30px;
+    color:#546582;
+    font:normal 16px 'Mulish', sans-serif;
+    cursor:pointer;
+}
+#container-landing ul li:not(li:nth-child(3)){
+    position:relative;
+    bottom:13px;
+}
+#container-landing ul li span{
+    margin-left:20px;
+    position:relative;
+    bottom:4px;
+}
+#container-landing .main-page .back{
+    margin-bottom:60px;
+}
+#container-landing .main-page .theme-page > span{
+    margin-left:10px;
+    font:bold 25px 'Mulish', sans-serif;
+    color:#166CD0;
+}
+#container-landing .main-page .form-container{
+    margin-top:46px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    padding:31px;
+}
+#container-landing .main-page .form-container h3{
+    font-weight:normal;
+    color:#505F79;
+    margin-bottom:63px;
+}
+#container-landing .form-structure > span{
+    font:600 18px 'Mulish', sans-serif;
+    color:#1CC4BF;
+    line-height: 23px;
+    position:relative;
+    bottom:5px;
+    margin-left: 5px;;
+}
+#container-landing form input, form input::placeholder,
+form .third-input span{
+    color:#858FA1;
+}
+#container-landing form{
+    margin-top:61px;
+}
+#container-landing form .input-block > p,
+#container-landing form .second-block .first-input > p,
+#container-landing form .second-block .third-input > p{
+    font:bold 18px 'Mulish', sans-serif;
+    color:#505F79;
+    margin-bottom:20px;
+}
+#container-landing form .first-block{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:40px;
+}
+#container-landing form .first-block .input-block{
+    width:100%;
+}
+#container-landing form .first-block .input-block:nth-child(2){
+    margin:0 40px;
+}
+#container-landing form .first-block select{
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    padding:15px;
+    width:100%;
+    font:normal 16px 'Mulish', sans-serif;
+    color:#858FA1;
+}
+#container-landing form .second-block{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position:relative;
+}
+#container-landing form .second-block .male{
+    margin-bottom:10px;
+}
+#container-landing form .second-block .first-input .input,
+#container-landing form .second-block .second-input .input{
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    padding:10px 8px;
+}
+#container-landing form .second-block .first-input .input > p{
+    margin-bottom:5px;
+    font:normal 10px 'Mulish', sans-serif;
+    color:#B9BFC9;
+}
+#container-landing form .second-block .second-input .input p{
+    margin-bottom:5px;
+    font:normal 10px 'Mulish', sans-serif;
+    color:#B9BFC9;
+}
+#container-landing form .second-block .second-input{
+    margin:40px 0 0 20px;
+}
+#container-landing form .second-block .third-input{
+    margin-left: 40px;
+}
+#container-landing form .second-block .third-input .input-block{
+    margin:25px 0 0 0;
+}
+#container-landing .button-input{
+    position: absolute;
+    right:0;
+    width:220px;
+}
+#container-landing .button-input input[type="submit"]{
+    width:100%;
+    padding:20px 0;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.21) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    border-radius: 8px;
+    color:#fff;
+    font:bold 15.5px 'Mulish', sans-serif;
+    margin-bottom:36px;
+    cursor:pointer;
+}
+#container-landing .button-input input[type="submit"]:hover{
+    letter-spacing:0.4;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    transition:letter-spacing ease 250ms;
+    box-shadow: 0px 10px 25px rgba(0, 255, 240, 0.2);
+}
+#container-landing .button-input .clean-button input[type="reset"]{
+    font:600 15.5px 'Mulish', sans-serif;
+    color:rgba(84, 101, 130, 0.5);
+    position:relative;
+    bottom:5px;
+    background:transparent;
+    cursor:pointer;
+}
+#container-landing .find-skills{
+    margin-top:83px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    padding:31px;
+    margin-bottom:80px;
+}
+#container-landing .find-skills h3{
+    font-weight:normal;
+    color:#505F79;
+    margin-bottom:63px;
+}
+#container-landing .find-skills .first-expert,
+#container-landing .find-skills .second-expert,
+#container-landing .find-skills .third-expert{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    padding:20px 30px;
+}
+#container-landing .find-skills .wilson-profile,
+#container-landing .find-skills .ricardo-profile,
+#container-landing .find-skills .marta-profile{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#container-landing .find-skills .second-expert{
+    margin:20px 0;
+}
+#container-landing .find-skills .first-expert p,
+#container-landing .find-skills .second-expert p,
+#container-landing .find-skills .third-expert p{
+    width:312px;
+    color:#505F79;
+    margin-top:5px;
+}
+#container-landing .find-skills .wilson-biography,
+#container-landing .find-skills .ricardo-biography,
+#container-landing .find-skills .marta-biography{
+    margin-left:30px;
+}
+#container-landing .find-skills h4{
+    color:#1CC4BF;
+}
+#container-landing .find-skills .score{
+    background: rgba(84, 101, 130, 0.8);
+    border-radius: 4px;
+    text-align: center;
+    padding:5px 0;
+}
+#container-landing .find-skills .score p{
+    color:#fff;
+}
+#container-landing .find-skills input[type="submit"]{
+    width:150px;
+    padding:20px;
+    background: #1CC4BF;
+    border-radius: 8px;
+    color:#fff;
+    cursor:pointer;
+    letter-spacing: 0.2;
+    font-size:15.5px;
+}
+#container-landing .find-skills input[type="submit"]:hover{
+    letter-spacing:0.4;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    transition:letter-spacing ease 250ms;
+}
+#container-landing .main-container-page{
+    position:relative;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#container-landing .profile-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-radius: 8px;
+    width:676px;
+    padding:18px;
+    margin-bottom:30px;
+}
+#container-landing .profile-container .data-profile{
+   margin:0 0 10px 40px;
+}
+#container-landing .profile-container .data-profile p:first-child{
+    font-weight:600;
+    background: rgba(84, 101, 130, 0.8);
+    border-radius: 4px;
+    color:#fff;
+    width:67px;
+    text-align: center;
+    padding:5px;
+}
+#container-landing .data-profile > h3{ 
+   font:800 18px 'Mulish', sans-serif;
+   color:#1CC4BF;
+   line-height: 23px;
+   letter-spacing:0.3;
+}
+#container-landing .data-profile > p{
+    font:normal 14px 'Mulish', sans-serif;
+    color: rgba(80, 95, 121, 1);
+    margin-bottom:20px;
+}
+#container-landing .service-status{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:23px;
+    position:relative;
+}
+#container-landing .service-status span{
+    font:400 13px 'Mulish', sans-serif;
+    color:#505F79;
+}
+#container-landing .service-status img.happy-face, img.sad-face{
+    margin-right:11.46px;
+}
+#container-landing .service-status img.sad-face{
+    margin-left:22px;
+}
+#container-landing .service-status .first{
+    margin:0 22px 3px 11.26px;
+}
+#container-landing .service-status .number1, .number2{
+    font:400 13px 'Mulish', sans-serif;
+    color:#505F79;
+    line-height:16px;
+    position:relative;
+    bottom:4px;
+}
+#container-landing .records-profile h3{
+    color:#1CC4BF;
+    font:bold 18px 'Mulish', sans-serif;
+    margin-bottom:18px;
+}
+#container-landing .records-profile p{
+    font:400 14px 'Mulish', sans-serif;
+    color:#505F79;
+}
+#container-landing .first-container{
+    width: 620px;
+    border-right: 1px solid rgba(196, 196, 196, 0.2)
+}
+#container-landing .biography{
+    margin-left:19px;
+}
+#container-landing .biography h3{
+    margin-bottom:20px;
+    color:#546582;
+}
+#container-landing .biography p{
+    color:#858FA1;
+}
+#container-landing .biography p:not(p:last-child){
+    margin-bottom:18px;
+}
+#container-landing .condition-container{
+    padding:64px 40px;
+}
+.condition-container{
+    width:100%;
+}
+.condition-container h3{
+    margin-bottom:22px;
+    font:bold 18px 'Mulish', sans-serif;
+    color:#546582;
+}
+.condition-container p:nth-child(3){
+    margin-bottom:31px;
+}
+.condition-container p, .condition-container span{
+    font:normal 14px 'Mulish', sans-serif;
+    color:#505F79;
+}
+.condition-container .treatment{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.condition-container .first-list div,
+.condition-container .second-list div{
+    margin-bottom:10px;
+}
+.condition-container span{
+    margin-left:10px;
+    position:relative;
+    bottom:3px;
+}
+#container-landing .information-expert{
+    font-weight: normal;
+    color:#505F79;
+    margin-bottom:63px;
+}
+.local-calendar{
+    margin:40px 0 100px 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.local-calendar .week-calendar{
+    margin-right:22px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    padding:20px;
+    width:100%;
+}
+.local-calendar .week-calendar h3{
+    font:bold 18px 'Mulish', sans-serif;
+    color:#546582;
+    margin-bottom:22px;
+}
+.local-calendar .week-calendar .table{
+    border: 1.4px solid rgba(133, 143, 161, 0.1);
+    border-radius: 8px;
+    padding:10px;
+    margin-bottom:32px;
+}
+.local-calendar .week-calendar table{
+    width:100%;
+    color:#505F79;
+}
+.local-calendar .week-calendar table tr td{
+   padding:3.52px 0 3.52px 18px;
+}
+.local-calendar .week-calendar table th{
+    background: #1CC4BF;
+    border-radius: 4px;
+    padding:3px 0;
+    color:#fff;
+}
+.local-calendar .schedule form input[type="date"], input[type="time"]{
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    padding:5px;
+    border-radius: 8px;
+    margin-right:15px;
+    color:#858FA1;
+}
+.local-calendar .schedule form input[type="time"]{
+    width:115px;
+}
+#container-landing .schedule form input[type="submit"]{
+    border:0;
+    border-radius:8px;
+    background:#1CC4BF;
+    color:#fff;
+    padding:10px;
+    width:158px;
+    cursor:pointer;
+    color:#fff;
+}
+.local-calendar .schedule form input[type="submit"]:hover{
+    letter-spacing:0.3;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    transition:letter-spacing ease 250ms;
+}
+.local-calendar .additional-information{
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    width:100%;
+    padding:20px;
+}
+#container-landing .additional-information h3{
+    color:#546582;
+}
+.local-calendar .additional-information .input-block{
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    padding:20px;
+}
+.local-calendar .additional-information h6{
+    font:normal 10px 'Mulish', sans-serif;
+    color:#B9BFC9;
+    margin-bottom:4px;
+}
+.local-calendar .additional-information .input-block textarea{
+    width:100%;
+}
+.local-calendar .additional-information .input-block textarea::placeholder{
+    color:#858FA1;
+}
+#container-landing .additional-information input[type="submit"]{
+    margin-top:20px;
+    background: linear-gradient(258.4deg, rgba(255, 255, 255, 0.21) 58.84%, rgba(255, 255, 255, 0) 101.8%), #166CD0;
+    box-shadow: 0px 10px 25px rgba(22, 108, 208, 0.18);
+    border-radius: 8px;
+    color:#fff;
+    width:139.26px;
+    padding:10px;
+    cursor:pointer;
+}
+#container-landing .additional-information input[type="submit"]:hover{
+    letter-spacing:0.3;
+    transition:letter-spacing ease 250ms;
+}
+#container-landing .button-next{
+    float:right;
+}
+#container-landing .button-next input[type="submit"]{
+    padding:20px 0;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.21) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    border-radius: 8px;
+    color:#fff;
+    width:403px;
+    cursor:pointer;
+    font-weight:700;
+    font-size:17px;
+    letter-spacing: 0.2;
+}
+#container-landing .button-next input[type="submit"]:hover{
+    letter-spacing:0.4;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    transition:letter-spacing ease 250ms;
+}
+#container-landing form select:hover, #container-landing form .second-input .input:hover,
+#container-landing form .second-block .input:hover, #container-landing .additional-information .input-block:hover{
+    border: 1.4px solid #858FA1;
+    transition: border 250ms;
+}
+
+
+#container-landing input[type="checkbox"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    transition: all 0.15s ease-out 0s;
+    background: #fff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+  }
+  #container-landing input[type="checkbox"]{
+      top:4px;
+      height: 20px;
+      width: 20px;
+      border: 1.4px solid #eee;
+  }
+  
+  #container-landing input[type="checkbox"]:checked{
+      background: #1CC4BF;
+      border: none;
+  }
+  #container-landing input[type="checkbox"]:checked::before{
+    position: absolute;
+    content: '✔';
+    font-size: 26.66667px;
+    text-align: center;
+    line-height: 40px;
+  }
+  #container-landing input[type="checkbox"]:checked::before{
+      height: 20px;
+      width: 20px;
+      font-size: 13px;
+      line-height: 20px;
+  }
+  #container-landing input[type="checkbox"]{
+    border-radius: 6px;
+  }

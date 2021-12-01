@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    border:0;
+}
+body{
+    height:200vh;
+}
+#container-landing{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+#container-landing .menu-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:33px 0 0 0;
+    margin-bottom:67.3px;
+}
+#container-landing ul{
+    position: relative;
+    bottom:15px;
+}
+#container-landing ul li{
+    display: inline;
+    padding: 0 30px;
+    color:#546582;
+    font:normal 16px 'Mulish', sans-serif;
+    cursor:pointer;
+}
+#container-landing ul li:nth-child(2){
+    position:relative;
+    top:10px;
+}
+#container-landing ul li span{
+    margin-left:20px;
+    position:relative;
+    bottom:4px;
+}
+#container-landing .main-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#container-landing .main-page .center-container{
+    margin:0 20px;
+}
+#container-landing .william, .mariana, .total_data{
+    background: #FFFFFF;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+}
+#container-landing .william, .mariana{
+    padding:69px 20px 21px 20px;
+    margin-bottom:20px;
+}
+#container-landing .william h3, .mariana h3{
+   color:#7194CF;
+}
+#container-landing .william p, .mariana p{
+    font:normal 14px 'Mulish', sans-serif;
+    color:#7194CF;
+}
+#container-landing .total_data{
+    padding:20px 70px 20px 20px;
+}
+#container-landing .total_data svg{
+    margin-bottom:25.55px;
+}
+#container-landing .total_data .users, .patient-registered, .experts{
+    margin-bottom:40px;
+}
+#container-landing .total_data p{
+    font:400 14px 'Mulish', sans-serif;
+    color:#7194CF;
+}
+#container-landing .total_data h4{
+    color:#7194CF;
+}
+#container-landing .center-landing, #container-landing .form-footer{
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    padding:20px;
+}
+#container-landing .form-block form .input-block{
+    padding:8px 15px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:60%;
+}
+#container-landing .form-block form .input-block .display{
+    width:100%;
+}
+#container-landing .form-block form .input-block .display > p{
+    font:normal 10px 'Mulish', sans-serif;
+    color:#B9BFC9;
+    margin-bottom:5px;
+}
+#container-landing .form-block form .input-block .display input{
+    color:#858FA1;
+    width:100%;
+}
+#container-landing .form-block form .input-block input::placeholder{
+    color: rgba(133, 143, 161, 0.6);
+    font-size:14px;
+}
+#container-landing .display > p, .display input{
+    padding-left:10px;
+}
+#container-landing .table-experts table{
+    width:100%;
+    border-collapse: separate;
+    border-spacing:10px 50px;
+    overflow-x:scroll ;
+}
+#container-landing .table-experts table thead{
+    color: rgba(84, 101, 130, 0.3);
+}
+#container-landing .table-experts table tbody td{
+    color:#546582;
+    font-weight:600;
+    border-bottom:1px solid rgba(84, 101, 130, 0.1);
+}
+#container-landing .table-experts table thead td:nth-child(2){
+    padding-right:110px;
+}
+#container-landing .table-experts table thead td:nth-child(5){
+    padding-left:55px;
+}
+#container-landing .table-experts table thead td:nth-child(3),
+#container-landing .table-experts table thead td:nth-child(4){
+    padding-right:55px;
+}
+
+#container-landing table tbody td:nth-child(5){
+    padding-left:55px;
+}
+#container-landing .table-experts table tbody td:nth-child(3){
+    background: rgba(28, 196, 191, 0.07);
+    border-radius: 6px;
+    color:#1CC4BF;
+}
+#container-landing .form-footer{
+    margin-top:20px;
+}
+#container-landing .form-footer h3{
+    font-weight:700;
+    color:#546582;
+    margin-bottom:16px;
+}
+#container-landing .first-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#container-landing .form-footer .input-block{
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    padding:8px 15px;
+    width:100%;
+}
+#container-landing .form-footer .input-block input{
+    width:100%;
+}
+#container-landing .form-footer .input-block > p{
+    font:normal 10px 'Mulish', sans-serif;
+    color:#B9BFC9;
+    margin-bottom:5px;
+}
+#container-landing .form-footer .input-block input::placeholder, textarea::placeholder{
+    color: rgba(133, 143, 161, 0.6);
+    font-size:14px;
+}
+#container-landing .form-footer .input-block:first-child{
+    margin-right:20px;
+}
+#container-landing .form-footer .first-block{
+    margin-bottom:20px;
+}
+#container-landing .form-footer .second-block .input-block:first-child{
+    width:75%;
+}
+#container-landing .second-block{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#container-landing .form-footer .submit-block{
+    width:25%;
+}
+#container-landing .form-footer input, textarea{
+    font-size:14px;
+    color:#858FA1;
+}
+#container-landing textarea{
+    width:100%;
+}
+#container-landing .form-footer input[type="submit"]{
+    width:100%;
+    padding:15px 0;
+    background: #546582;
+    border-radius: 8px;
+    color:#fff;
+    font:bold 15.5px 'Mulish', sans-serif;
+    cursor:pointer;
+    margin-bottom:31px;
+}
+#container-landing .reset-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container-landing .reset-button input[type="reset"]{
+    margin-left:12.92px;
+    background: transparent;
+    cursor:pointer;
+    color:rgba(84, 101, 130, 0.5);
+    font-weight:600;
+    font-size:15.5px;
+}
+#container-landing .ranking-container{
+    color:#F7F7F9;
+    background: #85AAE8;
+    border-radius: 8px;
+    padding:20px;
+    margin-bottom:20px;
+}
+#container-landing .aside-right h3{
+    margin:26px 0 23px 0;
+}
+#container-landing .aside-right .personal, .economy, .premium{
+    margin-bottom:25px;
+}
+#container-landing .aside-right .feedback-container svg{
+    margin-bottom:25px;
+}
+#container-landing .aside-right .feedback-container{
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    padding:20px;
+    color:#85AAE8;
+}
+#container-landing .total-feedback, .positive{
+    margin-bottom:34px;
+}

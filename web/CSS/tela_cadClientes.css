@@ -1,0 +1,247 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    list-style: none;
+    border:0;
+}
+body{
+    height:250vh;
+}
+#container-landing{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+#container-landing .menu-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:33px 0 0 0;
+    margin-bottom:67.3px;
+}
+#container-landing ul li{
+    display: inline;
+    padding: 0 30px;
+    color:#546582;
+    font:normal 16px 'Mulish', sans-serif;
+    cursor:pointer;
+}
+#container-landing ul li:not(li:nth-child(3)){
+    position:relative;
+    bottom:13px;
+}
+#container-landing ul li span{
+    margin-left:20px;
+    position:relative;
+    bottom:4px;
+}
+#container-landing .main-page .back{
+    margin-bottom:60px;
+}
+#container-landing .main-page .theme-page > span{
+    margin-left:10px;
+    font:bold 25px 'Mulish', sans-serif;
+    color:#166CD0;
+}
+#container-landing .main-page .form-container{
+    margin-top:46px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    padding:31px;
+}
+#container-landing .main-page .form-container h3{
+    font-weight:normal;
+    color:#505F79;
+    margin-bottom:63px;
+}
+#container-landing .first-block, .second-block,
+#container-landing .third-block, .forth-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#container-landing .first-block, .second-block,
+#container-landing .third-block{
+    margin-bottom:15px;
+}
+#container-landing form .input-block{
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    width:100%;
+    padding:10px 8px;
+}
+#container-landing form .input-block p{
+    font:400 10px 'Mulish', sans-serif;
+    color:#B9BFC9;
+    margin-bottom:5px;
+}
+#container-landing .input-block input::placeholder, input{
+    font:400 16px 'Mulish', sans-serif;
+    color:#858FA1;
+}
+#container-landing .input-block input:not(input[type="checkbox"]){
+    width:100%;
+}
+#container-landing .input-block:nth-child(2){
+    margin:0 15px;
+}
+#container-landing .third-block .input-block:nth-child(3),
+#container-landing .forth-block .input-block:nth-child(3){
+    margin-right:15px;
+}
+#container-landing .third-block .input-block:first-child{
+    padding:18px 8px;
+}
+#container-landing .third-block .input-block span{
+    color:#546582;
+}
+#container-landing .third-block .input-block > span{
+    
+}
+#container-landing .third-block .input-block:nth-child(2){
+    width:500px;
+}
+#container-landing .triagem{
+    margin:45px 0 40px 0;
+}
+#container-landing .triagem h3{
+    font-weight:normal;
+    color:#505F79;
+    margin-bottom:45px;
+}
+#container-landing .triagem p, .triagem span{
+    color:#546582;
+}
+#container-landing .triagem p{
+    font:bold 18px 'Mulish', sans-serif;
+    width:531px;
+    margin-bottom:45px;
+}
+#container-landing .checkbox-yes-no{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:40px;
+}
+#container-landing .checkbox-yes-no span{
+    margin:0 28px 0 14px;
+}
+#container-landing .diseases-page p{
+    font:700 18px 'Mulish', sans-serif;
+    color:#546582;
+    width:566px;
+    margin-bottom:40px;
+}
+#container-landing .diseases-list{
+    margin-bottom:60px;
+}
+#container-landing .diseases-list div{
+    margin-bottom:15px;
+}
+#container-landing .diseases-list .first-list,
+#container-landing .diseases-list .second-list,
+#container-landing .diseases-list .third-list{
+   display:flex;
+   flex-direction: row;
+   justify-content: start;
+   align-items: center;
+}
+#container-landing .diseases-list section{
+    width:100%;
+    text-align: center;
+    padding:15px 0;
+    letter-spacing:0.2px;
+    border-radius:6px;
+    color:#505F79;
+    background:#F7F8F9;
+}
+#container-landing .diseases-list .diabete, .cerebro, .renal, .neurologico,
+.hipertensao, .imunosso, .insuficiencia , .obesidade, .sindrome,
+.coronarianas, .volvopatia{
+    margin-left:16px;
+    background:#F7F8F9;
+}
+#container-landing .diseases-list .cirrose{
+    background:#1CC4BF;
+    color:#fff;
+}
+#container-landing .diseases-list section:not(.cirrose):hover{
+    color:#B9BFC9;
+    transition:color ease-in-out 250ms;
+}
+#container-landing .button-next{
+    float:right;
+}
+#container-landing .button-next button{
+    padding:20px 0;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.21) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    border-radius: 8px;
+    color:#fff;
+    width:403px;
+    cursor:pointer;
+    font-weight:700;
+    font-size:17px;
+    letter-spacing: 0.2;
+}
+#container-landing .button-next button:hover{
+    letter-spacing:0.4;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    transition:letter-spacing ease 250ms;
+}
+#container-landing .input-block:hover{
+    border: 1.4px solid #858FA1;
+    transition: border 250ms;
+}
+
+
+
+#container-landing input[type="checkbox"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    transition: all 0.15s ease-out 0s;
+    background: #fff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+  }
+  #container-landing input[type="checkbox"]{
+      top:4px;
+      height: 20px;
+      width: 20px;
+      border: 1.4px solid #1CC4BF;
+  }
+  
+  #container-landing input[type="checkbox"]:checked{
+      background: #1CC4BF;
+      border: none;
+  }
+  #container-landing input[type="checkbox"]:checked::before{
+    position: absolute;
+    content: '✔';
+    font-size: 26.66667px;
+    text-align: center;
+    line-height: 40px;
+  }
+  #container-landing input[type="checkbox"]:checked::before{
+      height: 20px;
+      width: 20px;
+      font-size: 13px;
+      line-height: 20px;
+  }
+  #container-landing input[type="checkbox"]{
+    border-radius: 100px;
+  }

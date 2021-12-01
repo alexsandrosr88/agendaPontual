@@ -1,0 +1,83 @@
+int pontosPadrao = 50;
+int pontuaFinal = 0;
+int pontualFinalCli = 0;
+int pontuaBase = 0;
+int percentual = 0;
+int baseRedimento = 0;
+int pontosAtualMed = medico.getAvaliacao(); 
+int pontosAtualCli = clinica.getAvaliacao();
+
+//gera media
+baseRedimento = (notaInstitucional + notaPontual) / 2;
+percentual = (100 * baseRedimento )/10;//descobre o percentual
+
+//
+if(percentual <= 45){
+	pontuaBase = (50 * percentual) / 100;
+	
+	//Atualiza a pontuacao
+	if(clicou para medico){
+		//gera a pontuacao final: É retirado pontos
+		pontuaFinal  = pontosAtualMed - pontuaBase; 
+
+		medico.setAvaliacao(pontuaFinal);
+		//atualiza pontuação
+		repositorio.update(avaliacao);
+
+	}else if(clicou para clinica{
+		//gera a pontuacao final: É retirado pontos
+		pontuaFinal  = pontosAtualCli - pontuaBase; 
+
+		clinica.setAvaliacao(pontuaFinal);
+		repositorio.update(avaliacao);
+
+	}else{
+
+		//gera a pontuacao final: É acrescentado pontos
+		pontuaFinal  = pontosAtualMed - pontuaBase; 
+		pontualFinalCli = pontosAtualCli - pontuaBase; 
+
+		//clicou para ambos
+		medico.setAvaliacao(pontuaFinal);
+		clinica.setAvaliacao(pontuaFinal);
+	
+		//atualiza pontuação
+		repositorio.update(avaliacao);
+	}
+
+}else {
+	pontuaBase = pontosPadrao * percentual) / 100;
+
+	//Atualiza a pontuacao
+	if(clicou para medico){
+	
+		//gera a pontuacao final: É retirado pontos
+		pontuaFinal  = pontosAtualMed + pontuaBase; 
+
+		medico.setAvaliacao(pontuaFinal);
+		//atualiza pontuação
+		repositorio.update(avaliacao);
+
+	}else if(clicou para clinica{
+		//gera a pontuacao final: É retirado pontos
+		pontuaFinal  = pontosAtualCli + pontuaBase; 
+
+		clinica.setAvaliacao(pontuaFinal);
+		repositorio.update(avaliacao);
+
+	}else{
+
+		//gera a pontuacao final: É acrescentado pontos
+		pontuaFinal  = pontosAtualMed + pontuaBase; 
+		pontualFinalCli = pontosAtualCli + pontuaBase; 
+
+		//clicou para ambos
+		medico.setAvaliacao(pontuaFinal);
+		clinica.setAvaliacao(pontuaFinal);
+	
+		//atualiza pontuação
+		repositorio.update(avaliacao);
+	}
+}
+
+

@@ -1,0 +1,64 @@
+.option-check, .option-radio{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all 0.15s ease-out 0s;
+  background: #fff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+.option-check {
+    height: 30px;
+    width: 30px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+}
+.option-radio{
+    top: 4px;
+    height: 20px;
+    width: 20px;
+    border: 1.4px solid #1CC4BF;
+}
+
+.option-radio:checked , .option-check:checked {
+    background: #1CC4BF;
+    border: none;
+}
+.option-radio:checked::before, .option-check:checked::before {
+  position: absolute;
+  content: '✔';
+  display: inline-block;
+  font-size: 26.66667px;
+  text-align: center;
+  line-height: 40px;
+}
+.option-check:checked::before {
+  height: 30px;
+  width: 30px;
+  font-size: 23px;
+  line-height: 30px;
+}
+.option-radio:checked::before{
+    height: 20px;
+    width: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.option-radio {
+  border-radius: 50%;
+}
+.option-check{
+  border-radius: 8px;
+}

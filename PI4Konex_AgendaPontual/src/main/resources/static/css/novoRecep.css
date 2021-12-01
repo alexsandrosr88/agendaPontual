@@ -1,0 +1,236 @@
+@import url('global.css');
+
+.todo{
+    width: 1080px;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+}
+#voltar{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 61px;
+}
+#titulo{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 70px;
+}
+#titulo svg{
+    float: left;
+    margin-top: 5px;
+}
+#titulo h1{
+    margin: 0 0 0 10px;
+    float: left;
+    font-size: 25px;
+    color: #166CD0;
+
+}
+.foto{
+    width: 110px;
+    height: 124px;
+    margin: 0 15px 35px 0;
+    float: left;
+}
+#attFt{
+    font-size: 14px;
+    color: #1CC4BF;
+}
+.dados{
+    width: 1089px;
+    height: 140px;
+    margin: 0 auto 70px auto;
+}
+
+.dados input{
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+}
+.dados input:disabled{
+    background: none;
+}
+.dados input::placeholder{
+    color: #858FA1;
+}
+.nome, .cpf, .emailDados, .senha, .sexo, .carg, .tel, .dataNasc, .especi, .crm, .dataCrm{
+    height: 50px;
+    padding: 10px 0 0 13px;
+    margin-bottom: 15px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.nome:hover, .cpf:hover, .emailDados:hover, .senha:hover, .sexo:hover, .carg:hover, .dataNasc:hover{
+    border: 1.4px solid #858FA1;
+}
+.nome, .cpf, .emailDados, .senha, .sexo, .dataNasc, .especi{
+    margin-right: 15px;
+}
+.nome input, .cpf input, .emailDados input, .senha input, .carg input, .dataNasc input{
+    border: none;
+}
+.nome p, .cpf p, .emailDados p, .senha p, .carg p, .dataNasc p{
+    margin: 0 0 5px 0;
+    font-size: 10px;
+    color: #B9BFC9;
+}
+.nome, .emailDados{
+    width: 287px;
+}
+.nome input, .emailDados input{
+    width: 276px;
+}
+.rg{
+    width: 182px;
+}
+.rg input{
+    width: 168px;
+}
+.cpf{
+    width: 252px;
+}
+.cpf input{
+    width: 245px;
+}
+.senha{
+    width: 158px;
+}
+.senha input{
+    width: 138px;
+}
+.sexo{
+    width: 255px;
+    height: 45px;
+    padding-top: 15px;
+}
+.dataNasc{
+    width: 159px;
+}
+.dataNasc input{
+    width: 144px;
+}
+.carg{
+    width: 145px;
+}
+.carg input{
+    width: 139px;
+}
+.dados input[type="submit"]{
+    width: 158px;
+    height: 60px;
+    background: #1CC4BF;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 15.5px;
+}
+.dados input[type="submit"]:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.dados input[type="submit"]:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+    color: #fff;
+}
+
+.colab h1{
+    font-size: 18px;
+    color: #546582;
+}
+/*scroll tabela*/
+#tbNot tbody::-webkit-scrollbar {
+    width: 2px;
+}
+  
+/* Track */
+#tbNot tbody::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px #E8E8E8; 
+border-radius: 10px;
+}
+   
+/* Handle */
+#tbNot tbody::-webkit-scrollbar-thumb {
+background: #546582; 
+}
+  
+/* Handle on hover */
+#tbNot tbody::-webkit-scrollbar-thumb:hover {
+    background: #546582; 
+}
+/*fim scroll*/
+#tbNot{
+    width: 1066px;
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+    color: #546582;
+}
+#tbNot thead{
+    width: 1066px;
+    height: 60px;
+    display: inline-block;
+}
+#tbNot tbody{
+    width: 1066px;
+    height: 181px;
+    display: inline-block;
+    overflow: auto;
+}
+#tbNot tr{
+    width: 1066px;
+    height: 60px;
+    border-bottom: 1.4px solid rgba(80, 95, 121, 0.1);
+}
+#tbNot th{
+    font-weight: 500;
+    padding: 0;
+    color: rgba(84, 101, 130, 0.3);
+}
+#tbNot td{
+    padding: 0;
+}
+#nomeTb {
+    width: 244px;
+}
+#nomeTb img{
+    width: 40px;
+    height: 40px;
+}
+#nomeTb img, #nomeTb p{
+    float: left;
+}
+#nomeTb p{
+    margin: 12.222px 0 0 10px;
+    font-weight: bold;
+}
+#emailTb{
+    width: 195px;
+}
+#cpfTb{
+    width: 148px;
+}
+#sexoTb{
+    width: 100px; 
+}
+#dataTb{
+    width: 150px;
+}
+#cargoTb{
+    width: 143px;
+}
+#dellTb{
+    width: 60px;
+}
+#dellTb button{
+    background: none;
+    border: none;
+}
+.cargo{
+    width: 105px;
+    height: 20px;
+    padding-top: 7px;
+    background: rgba(100, 247, 114, 0.18);
+    border-radius: 6px;
+    color: rgba(0, 129, 44, 0.7);  
+    text-align: center;
+}

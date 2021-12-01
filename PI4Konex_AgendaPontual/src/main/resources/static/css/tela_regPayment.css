@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    border:0;
+}
+body{
+    height:150vh;
+}
+#container-landing{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+#container-landing .menu-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:33px 0 0 0;
+    margin-bottom:67.3px;
+}
+#container-landing ul li{
+    display: inline;
+    padding: 0 30px;
+    color:#546582;
+    font:normal 16px 'Mulish', sans-serif;
+    cursor:pointer;
+}
+#container-landing ul li:not(li:nth-child(3)){
+    position:relative;
+    bottom:13px;
+}
+#container-landing ul li span{
+    margin-left:20px;
+    position:relative;
+    bottom:4px;
+}
+#container-landing .main-page{
+    margin-bottom:123px;
+}
+#container-landing .main-page .back,
+#container-landing .margin{
+    margin-bottom:60px;
+}
+#container-landing .margin{
+    margin-top:60px;
+}
+#container-landing .main-page .margin span{
+    margin-left:10px;
+    font:bold 25px 'Mulish', sans-serif;
+    color:#166CD0;
+    margin-bottom:46px;
+    position:relative;
+    bottom:5px;
+}
+#container-landing .main-page .form-container{
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    padding:31px;
+    margin-right:20px;
+}
+#container-landing .main-page .form-container h3{
+    font-weight:700;
+    color:#505F79;
+    font-size:25px;
+}
+#container-landing .main-page .form-container > p{
+    color:#546582;
+    margin-bottom:40px;
+}
+#container-landing .first-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#container-landing form .input-block{
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    width:100%;
+    padding:10px 8px;
+}
+#container-landing form .input-block p{
+    font:400 10px 'Mulish', sans-serif;
+    color:#B9BFC9;
+    margin-bottom:5px;
+}
+#container-landing .input-block input::placeholder, input{
+    font:400 16px 'Mulish', sans-serif;
+    color:#858FA1;
+}
+#container-landing .input-block:nth-child(1){
+    width:125px;
+}
+#container-landing .input-block:nth-child(2){
+    margin:0 20px;
+    width:200px;
+}
+#container-landing .input-block:nth-child(2) input,
+#container-landing .input-block:nth-child(1) input,
+#container-landing .input-block:nth-child(3) input{
+    width:108px;
+}
+#container-landing .input-block:nth-child(3){
+    width:172px;
+    margin-right:20px;
+}
+#container-landing form select{
+    color:#858FA1;
+}
+#container-landing .form-container button{
+    color:#fff;
+    background: #1CC4BF;
+    border-radius: 8px;
+    width:140px;
+    padding:20px 0;
+    font-size: 14px;
+    font-weight:700;
+    cursor:pointer;
+}
+#container-landing .form-container button:hover{
+    letter-spacing: 0.4;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    transition:letter-spacing ease 250ms;
+}
+main.confirm-landing{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width:1080px;
+    margin:0 auto;
+}
+main.confirm-landing .circle-icon-confirm{
+    height:60px;
+    width:60px;
+    background: rgba(28, 196, 191, 1);
+    border-radius:50%;
+    margin-bottom:8px;
+}
+main.confirm-landing .circle-icon-confirm img{
+    margin:20px 15px;
+}
+.phrase-confirmation h2{
+    text-align:center;
+    margin:0 auto;
+    font:bold 25px 'Mulish', sans-serif;
+    color: rgba(84, 101, 130, 0.9);
+}
+.phrase-confirmation p{
+    font:400 16px 'Mulish', sans-serif;
+    margin-top:15px;
+    color: rgba(84, 101, 130, 0.9);
+    text-align:center;
+}

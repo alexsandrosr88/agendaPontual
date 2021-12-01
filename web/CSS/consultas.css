@@ -1,0 +1,355 @@
+@import url(global.css);
+body{
+    width: 1400px;
+    margin: 0 auto;
+    height: 1500px;
+}
+
+#consul{
+    border-right: solid 4px #166CD0;
+}
+#consul a{
+    color: #166CD0;
+}
+#consul path{
+    fill: #166CD0;
+}
+.todo{
+    width: 883px;
+    MAX-height: 769PX;
+    margin-top: 91px;
+    height: 100%;
+    float: left;
+    border-top: 1px solid rgba(84, 101, 130, 0.3);
+    font-family: 'Mulish', sans-serif;
+}
+.consultas{
+    width: 828px;
+    padding: 27px 0 0 55px;
+    border-bottom: 1px solid rgba(84, 101, 130, 0.3);
+}
+.titulo {
+    height: 55px;
+}
+.titulo svg{
+    float: left;
+}
+.titulo h1{
+    margin: 0 0 0 10px;
+    float: left;
+    font-size: 20px;
+    color: #166CD0;
+}
+.listaConsul{
+    width: 827px;
+    height: 320px;
+    overflow: auto;
+}
+/*scroll css*/
+.listaConsul::-webkit-scrollbar {
+    width: 2px;
+}
+  
+/* Track */
+.listaConsul::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px #E8E8E8; 
+border-radius: 10px;
+}
+   
+/* Handle */
+.listaConsul::-webkit-scrollbar-thumb {
+background: #546582; 
+}
+  
+/* Handle on hover */
+.listaConsul::-webkit-scrollbar-thumb:hover {
+    background: #546582; 
+}
+/*fim scroll*/
+.consulta{
+    width: 797px;
+    height: 43px;
+    margin: 10px 0;
+    padding: 24px 0 0 15px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+}
+.consulta:hover{
+    background: #F4F9FF;
+}
+.consulta h1{
+    margin: 0 55px 0 0;
+    float: left;
+    font-size: 18px;
+    color: #505F79;
+}
+.consulta p{
+    margin: 0 72px 0 0;
+    float: left;
+    font-size: 18px;
+    color: #546582;
+}
+.sgvsConsul{
+    margin: 0 0 0 4px;
+    float: left;
+}
+.sgvsConsul button{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+.sgvsConsul svg{
+    margin: 0 10px;
+    float: left;
+}
+#ativa, #desativada{
+    width: 8px;
+    height: 8px;
+    margin: 6px 11px 0 0;
+    border-radius: 50px;
+    float: left;
+}
+#ativa{
+    background: #57DE35;
+}
+#desativada{
+    background: #D6D6D6;
+}
+.infoSgvs{
+    height: 65px;
+    margin: 54px 0 0 15px;
+}
+.receitaConsul, .InfoConsul, .alterConsul, .cancelConsul{
+    float: left;
+}
+.receitaConsul{
+    width: 131px;
+    height: 14px;
+    margin-left: 17px;
+}
+.InfoConsul{
+    width: 190px;
+    height: 14px;
+    margin-left: 21px;
+}
+.alterConsul{
+    width: 135px;
+    height: 14px;
+    margin-left: 17px;
+}
+.cancelConsul{
+    width: 155px;
+    height: 14px;
+    margin-left: 1px;
+}
+.precancela{
+    height: 15px;
+    width: 641px;
+    float: left;
+}
+.statusConsul p, .statusConsul svg, .receitaConsul p, .receitaConsul svg, .InfoConsul p, .InfoConsul svg, .alterConsul p, .alterConsul svg, .cancelConsul p, .cancelConsul svg{
+    float: left;
+}
+.statusConsul p, .receitaConsul p, .InfoConsul p, .alterConsul p, .cancelConsul p{
+    font-size: 14px;
+    color: #858FA1;
+}
+ .receitaConsul p, .InfoConsul p, .alterConsul p, .cancelConsul p{
+    margin: 0 0 0 9px;
+}
+.statusConsul p{
+    margin: 0;
+}
+.painel{
+    width: 828px;
+    height: 427px;
+    padding: 65px 0 0 55px;
+    border-bottom: 1px solid rgba(84, 101, 130, 0.3);
+}
+.tituloPainel{
+    margin-bottom: 55px;
+}
+.tituloPainel h1{
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    color: #546582;
+}
+.tituloPainel p{
+    margin: 0;
+    font-size: 16px;
+    color: #546582;
+}
+.med{
+    width: 409px;
+    height: 227px;
+    padding: 35px 0 0 31px;
+    float: left;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+}
+.med img{
+    width: 110px;
+    height: 110px;
+    margin: 0 20px 20px 0;
+    float: left;
+}
+.med h2{
+    width: 257px;
+    margin: 0 0 7px 0;
+    font-size: 16px;
+    color: #1CC4BF;
+    float: left;
+}
+.med p{
+    margin: 0;
+    color: #505F79;
+    font-size: 14px;
+}
+.med hr{
+    width: 390px;
+    margin: 20px 0;
+    border: 1px solid rgba(84, 101, 130, 0.15); 
+}
+.atendEAva{
+    width: 257px;
+    margin: 10px 0;
+    float: left;
+}
+.atendEAva p{
+    margin: 0;
+    font-size: 13px;
+    float: left;
+}
+.atendEAva svg{
+    margin: 2px 8px 0 12px;
+    float: left;
+}
+.info{
+    width: 345px;
+    height: 244px;
+    margin-left: 19px;
+    padding: 17px 0 0 18px;
+    float: left;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+}
+.info h2{
+    width: 257px;
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    color: #1CC4BF;
+}
+.info img{
+    float: left;
+}
+.info p{
+    width: 294px;
+    margin: 3px 0 0 10px;
+    float: left;
+    font-size: 14px;
+    color: #505F79;
+}
+.linhaInfo, .enderecoInfo{
+    width: 328px;
+    margin-bottom: 20px;
+}
+.linhaInfo{
+    height: 22px;
+}
+.enderecoInfo{
+    height: 59px;
+}
+.enderecoInfo img{
+   margin-top: 15px; 
+}
+.altera{
+    width: 828px;
+    height: 234px;
+    padding: 65px 0 0 55px;
+    border-bottom: 1px solid rgba(84, 101, 130, 0.3);
+}
+.tituloAltera{
+    margin-bottom: 55px;
+}
+.tituloAltera h1{
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    color: #546582;
+}
+.tituloAltera p{
+    margin: 0;
+    font-size: 16px;
+    color: #546582;
+}
+.codAltera{
+    width: 134px;
+    height: 50px;
+    padding: 10px 0 0 17px;
+    margin-right: 50px;
+    background: #EEEEEE;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.codAltera p, .dataltera p, .horaltera p{
+    margin: 0 0 10px 0;
+    font-size: 10px;
+    color: #B9BFC9;
+}
+.codAltera h4{
+    margin: 0;
+    font-size: 14px;
+    color: #858FA1;
+}
+.dataltera:hover, .horaltera:hover{
+    border: 1.4px solid #858FA1;
+}
+.dataltera{
+    width: 145px;
+    height: 50px;
+    padding: 10px 0 0 17px;
+    margin-right: 50px;
+    background: #fff;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.dataltera input[type='date']{
+    width: 130px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.horaltera{
+    width: 145px;
+    height: 50px;
+    padding: 10px 0 0 17px;
+    margin-right: 50px;
+    background: #fff;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.horaltera input[type='time']{
+    width: 130px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.altera input[type='submit']{
+    width: 190px;
+    height: 60px;
+    background: #1CC4BF;
+    border: none;
+    border-radius: 8px;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+}
+.altera input[type='submit']:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.altera input[type='submit']:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}

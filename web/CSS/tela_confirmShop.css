@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+#header-landing .header-container{
+    background: rgba(28, 196, 191, 1);
+    height:104px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font: 400 22px 'Lato', sans-serif;
+    font-style:oblique;
+    margin-bottom:59px;
+}
+main.confirm-landing{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width:1080px;
+    margin:0 auto;
+}
+main.confirm-landing .circle-icon-confirm{
+    height:60px;
+    width:60px;
+    background: rgba(28, 196, 191, 1);
+    border-radius:50%;
+    margin-bottom:60px;
+}
+main.confirm-landing .circle-icon-confirm img{
+    margin:20px 15px;
+}
+.phrase-confirmation h2{
+    text-align:center;
+    width:450px;
+    margin:0 auto;
+    font:bold 33px 'Mulish', sans-serif;
+    color: rgba(84, 101, 130, 0.9);
+
+}
+.phrase-confirmation p{
+    font:400 18px 'Mulish', sans-serif;
+    margin:30px 0 63px 0;
+    color: rgba(84, 101, 130, 0.9);
+    width:500px;
+    text-align:center;
+}
+.confirm-landing .login-download button{
+    margin:0 10px;
+    padding:20px;
+    width:300px;
+    font:700 15.5px 'Mulish', sans-serif;
+    cursor:pointer;
+    letter-spacing:0.2px;
+}
+.confirm-landing .login-download button:first-child{
+    background: rgba(28, 196, 191, 1);
+    color:#fff;
+    border-radius:8px;
+    border: 2px solid rgba(28, 196, 191, 1);
+}
+.confirm-landing .login-download button:first-child:hover{
+    letter-spacing: 0.4px;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    transition:letter-spacing 250ms ease-in-out;
+}
+.confirm-landing .login-download button:last-child{
+    border: 2px solid rgba(28, 196, 191, 1);
+    border-radius:8px;
+    background:#fff;
+    color:#1CC4BF;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.confirm-landing .login-download button:last-child:hover{
+    background: rgba(28, 196, 191, 1);
+    color:#fff !important;
+    text-shadow: #fff;
+    background-image: url('../images/white-download-icon.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center left 50px;
+}
+.confirm-landing .login-download button:last-child:hover::before{
+    top: 0%;
+	bottom: auto;
+	height: 100%;
+}
+.confirm-landing .login-download button:last-child::before{
+    display: block;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: #1CC4BF !important;
+	background: #fff;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.confirm-landing .login-download button:last-child{
+    background-image: url('../images/green-download-icon.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center left 50px;
+}

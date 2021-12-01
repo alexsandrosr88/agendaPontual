@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    height:230vh;
+}
+#container-landing{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+#container-landing .menu-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:33px 0 0 0;
+    margin-bottom:67.3px;
+}
+#container-landing ul li{
+    display: inline;
+    padding: 0 30px;
+    color:#546582;
+    font:normal 16px 'Mulish', sans-serif;
+    cursor:pointer;
+}
+#container-landing ul li:not(li:nth-child(3)){
+    position:relative;
+    bottom:13px;
+}
+#container-landing ul li span{
+    margin-left:20px;
+    position:relative;
+    bottom:4px;
+}
+#container-landing .main-page .back{
+    margin-bottom:60px;
+}
+#container-landing .summarize-container{
+    margin-left:700px;
+    width:364px;
+    margin:auto;
+}
+#container-landing .summarize-container span{
+   margin-left:10px;
+   text-align: justify;
+   color:#546582;
+}
+#container-landing .summarize-container article{
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius:8px;
+    padding:18px;
+}
+#container-landing .summarize-container article h3{
+    font:700 18px 'Mulish', sans-serif;
+    color:#546582;
+}
+#container-landing .summarize-container article div{
+    font:normal 14px 'Mulish', sans-serif
+}
+#container-landing .summarize-container article div{
+    margin-bottom:20px;
+}
+#container-landing .summarize-container article > div{
+    margin-top:20px;
+}
+#container-landing .health-insurance{
+    margin-top:40px;
+}
+#container-landing .health-insurance h3{
+    font:700 18px 'Mulish', sans-serif;
+    color:#546582;
+    letter-spacing:0.3;
+    margin-bottom:20px;
+}
+#container-landing .health-insurance select{
+    padding:20px;
+    margin-bottom:20px;
+    font:normal 14px 'Mulish', sans-serif;
+    color:#858FA1;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius:8px;
+    width:100%;
+}
+#container-landing .health-insurance input[type="submit"]{
+    width:100%;
+    padding:20px;
+    border:none;
+    border-radius:8px;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.21) 58.84%, rgba(255, 255, 255, 0) 101.8%),
+    linear-gradient(0deg, #1CC4BF, #1CC4BF);
+    color:#fff;
+    font:700 15.5px 'Mulish', sans-serif;
+    cursor:pointer;
+}
+#container-landing .health-insurance input[type="submit"]:hover{
+    letter-spacing:0.4;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    transition:letter-spacing ease 250ms, box-shadow 300ms;
+    box-shadow: 0px 10px 25px rgba(0, 255, 240, 0.2);
+}
+#container-landing .health-insurance p:last-child{
+    margin-top:32px;
+    text-align:center;
+    font:normal 14px 'Mulish', sans-serif;
+    color:#0052CC;
+}
+#container-landing .last-button{
+    margin:52px 0 113px 0;
+    padding:18px;
+}
+#container-landing .last-button input[type="submit"]{
+    color:#fff;
+    background: #166CD0;
+    border-radius: 8px;
+    font-weight:700;
+    border:0;
+    padding:20px;
+    width:100%;
+    font-size:15.5px;
+    cursor:pointer;
+}
+#container-landing .last-button input[type="submit"]:hover{
+    letter-spacing:0.4;
+    transition:letter-spacing ease 250ms;
+    background: linear-gradient(258.4deg, rgba(255, 255, 255, 0.21) 58.84%, rgba(255, 255, 255, 0) 101.8%), #166CD0;
+}
+main.confirm-landing{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width:1080px;
+    margin:0 auto;
+}
+main.confirm-landing .circle-icon-confirm{
+    height:60px;
+    width:60px;
+    background: rgba(28, 196, 191, 1);
+    border-radius:50%;
+    margin-bottom:8px;
+}
+main.confirm-landing .circle-icon-confirm img{
+    margin:20px 15px;
+}
+.phrase-confirmation h2{
+    text-align:center;
+    margin:0 auto;
+    font:bold 25px 'Mulish', sans-serif;
+    color: rgba(84, 101, 130, 0.9);
+}
+.phrase-confirmation p{
+    font:400 16px 'Mulish', sans-serif;
+    margin-top:15px;
+    color: rgba(84, 101, 130, 0.9);
+    text-align:center;
+}

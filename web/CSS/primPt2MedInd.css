@@ -1,0 +1,75 @@
+@import url('global.css');
+
+
+
+.todo{
+    width: 649px;
+    height: 570px;
+    margin: 0 auto;
+    padding-top: 199px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+}
+.todo h1{
+    width: 649px;
+    height: 81px;
+    font-size: 33px;
+    color: #505F79;
+    margin: 37px 0 77px 0;
+    display:inline-block;
+}
+button{
+    background: transparent;
+    border: none;
+}
+.crm p, .especialidade p{
+    font-size: 10px;
+    color: #B9BFC9;
+    margin: 0 0 7px 0;
+}
+.crm, .especialidade{
+    width: 346px;
+    height: 64px;
+    margin: 0 auto 29px auto;
+    padding: 13px 0 0 17px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+.crm input{
+    width: 300px;
+    height: 35px;
+    border: none;
+    font-size: 14px;
+}
+.crm input::placeholder{
+    color: #858FA1;
+}
+.especialidade select{
+    width: 320px;
+    height: 35px; 
+    border: none;
+    font-size: 14px; 
+}
+.centro{
+    width: 370px;
+    height: 90px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.centro button{
+    width: 366px;
+    height: 80px;
+    padding: 0 94px;
+    margin: 0;
+    border: 2px solid #1CC4BF;
+    border-radius: 8px;
+}
+.centro h2{
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 22px;
+    font-weight: normal;
+    color: #1CC4BF;
+}

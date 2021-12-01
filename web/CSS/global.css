@@ -1,0 +1,407 @@
+/*
+    Este é o css padrão de todas as páginas, ele deve ser adicionado ao css de 
+    cada página ou ao próprio html.
+*/
+html,body{
+    min-width: 1400px;
+    height: 100%;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #fff;
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+a, a:link, a:visited, a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+input{
+    outline: none;
+    text-decoration: none;
+    border: solid #777 1px;
+}
+button{
+    outline: none;
+    text-decoration: none;
+    background-color: #eee;
+    border: solid #777 1px;
+}
+select{
+    outline: none;
+}
+
+/* 
+    Inicio do css do menu.
+*/
+.menu{
+    width: 100%;
+    height: 97px;
+    position: relative;
+    top: 0;
+}
+.itensMenu{
+    width: 1080px;
+    height: 64px;
+    margin: 0 auto;
+    padding-top: 31px;
+}
+#logoMenu{
+    float: left;
+    margin-right: 389px;
+}
+.textoMenu{
+    float: left;
+    margin-top: 21px;
+}
+.textoMenu a{
+    margin-left: 80px;
+    
+    font-family: 'Mulish', sans-serif;
+    color: rgba(84, 101, 130, 0.9);
+    font-size: 18px;
+}
+/*
+Fim do css do menu.
+*/
+
+/*
+    Inicio css menu lateral.
+*/
+.menulat{
+    width: 274px;
+    height: 100%;
+    min-height: 860px;
+    float: left;
+    padding-left: 81px;
+    border-right: 1px solid rgba(84, 101, 130, 0.2);
+    font-family: 'Mulish', sans-serif;
+    color: #546582;
+    position: relative;
+}
+.menulat p{
+    width: 241px;
+    height: 33px;
+    margin: 14px 0 0 30px;
+    padding-top: 16px;
+    font-size: 16px;
+}
+.menulat svg{
+    margin-right: 24px;
+}
+#logoLat{
+    margin: 38px 0 85px 0;
+}
+.meioLat{
+    width: 274px;
+    height: 144px;
+    margin: 166px 0 10px 0;
+    padding: 12px 0 0 0;
+    border: 1px solid rgba(84, 101, 130, 0.2);
+    border-left: none;
+    border-right: none;
+}
+
+.bottomLat{
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 0;
+}
+/*
+    Fim do css menu lateral.
+*/
+
+/*
+    Inicio css menu clinica.
+*/
+.menuClinica{
+    width: 100%;
+    height: 135px;
+    position: relative;
+    top: 0;
+}
+.itensMenuClinica{
+    width: 1130px;
+    height: 64px;
+    margin: 0 auto;
+    padding-top: 31px;
+}
+#logoMenuClinica{
+    float: left;
+    margin-right: 395px;
+}
+.textoMenuClinica{
+    float: left;
+    margin-top: 0px;
+}
+.textoMenuClinica a{
+    float: left;
+    margin-left: 40px;
+    font-family: 'Mulish', sans-serif;
+    color: rgba(84, 101, 130, 0.9);
+    font-size: 18px;
+}
+.textoMenuClinica img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.textoMenuClinica svg{
+    margin-right: 20px;
+
+    font-family: 'Mulish', sans-serif;
+    color: rgba(84, 101, 130, 0.9);
+    font-size: 18px;
+}
+.textoMenuClinica p{
+    float: left;
+    margin-top: 12px;
+}
+
+/*
+    Fim do css menu clinica.
+*/
+
+/*
+Inicio css rodapé.
+*/
+.rodapeComposto{
+    width: 100%;
+    padding-top: 93px;
+    height: 417px;
+    background-color: #f8f9fa;
+    position: relative;
+    bottom: 0;
+}
+.colunas{
+    width: 1080px;
+    padding: 0 160px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.logoRodape{
+    margin-top: 25px;
+    float: left;
+}
+.coluna, .colunaDev{
+    height: 135px;
+    margin: 0 0 0 160px;
+    float: left;
+}
+.coluna h3, .colunaDev h3{
+    margin: 0  0 17px 0;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1CC4BF;
+}
+.coluna p{
+    margin: 17px 0;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #546582;
+}
+.coluna a{
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #546582;
+}
+.colunaDev{
+    width: 160px;
+}
+.colunaDev img{
+    margin: 0 20px 20px 0;
+}
+#barra{
+    width: 1078px;
+    height: 1px;
+    margin: 80px auto 60px auto;
+    clear: both;
+    background-color: rgba(84, 101, 130, 0.15);
+}
+.news{
+    height: 61px;
+    margin-left: 273px;
+    float: left;
+    
+}
+.news h1{
+    margin-right: 100px;
+    float: left;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1CC4BF;
+}
+.email{
+    float: left;
+    width: 553px;
+    height: 62px;
+    margin-bottom: 75px;
+    background-color: #fff;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+}
+.email:hover{
+    border: 1.4px solid #858FA1;
+}
+#emailRodape{
+    width: 384px;
+    height: 60px;
+    border: transparent;
+    margin-left: 16px;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+.email ::placeholder{
+    color: rgba(84, 101, 130, 0,5);
+}
+#btnEmail{
+    width: 139px;
+    height: 52px;
+    border: transparent;
+    border-radius: 8px;
+    background-color: #1CC4BF;
+    
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+#btnEmail:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+#btnEmail:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}
+
+.rodapeSimples{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    background-color: #1CC4BF;
+    position: relative;
+    bottom: 0;
+}
+.rodapeSimples p{
+    width: 485px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+/*
+    Fim do css do rodapé.
+*/
+
+/*
+   Inicio css do checkbox e radio
+*/
+.option-check, .option-radio{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all 0.15s ease-out 0s;
+  background: #fff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+.option-check {
+    height: 30px;
+    width: 30px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+}
+.option-radio{
+    top: 4px;
+    height: 20px;
+    width: 20px;
+    border: 1.4px solid #1CC4BF;
+}
+
+.option-radio:checked , .option-check:checked {
+    background: #1CC4BF;
+    border: none;
+}
+.option-radio:checked::before, .option-check:checked::before {
+  position: absolute;
+  content: '✔';
+  display: inline-block;
+  font-size: 26.66667px;
+  text-align: center;
+  line-height: 40px;
+}
+.option-check:checked::before {
+  height: 30px;
+  width: 30px;
+  font-size: 23px;
+  line-height: 30px;
+}
+.option-radio:checked::before{
+    height: 20px;
+    width: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.option-radio {
+  border-radius: 50%;
+}
+.option-check{
+  border-radius: 8px;
+}
+/*
+    Fim do css do checkbox e radio.
+*/
+
+/*
+    Import das fontes utilizadas.
+*/
+
+/*
+    regra para especificar essa familia:
+
+    font-family: 'Mulish', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+/*
+    regra para especificar essa familia:
+
+    font-family: 'Lato', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+/*
+    regra para especificar essa familia:
+
+    font-family: 'Ubuntu', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');

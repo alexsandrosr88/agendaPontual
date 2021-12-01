@@ -1,0 +1,361 @@
+@import url(global.css);
+
+body{
+    width: 1400px;
+    margin: 0 auto;
+    height: 1080px;
+}
+
+#nvConsul{
+    border-right: solid 4px #166CD0;
+}
+#nvConsul a{
+    color: #166CD0;
+}
+#nvConsul rect{
+    fill: #166CD0;
+}
+.todo{
+    width: 909px;
+    MAX-height: 769PX;
+    margin-top: 91px;
+    padding: 27px 0 0 55px;
+    height: 100%;
+    float: left;
+    border-top: 1px solid rgba(84, 101, 130, 0.3);
+    font-family: 'Mulish', sans-serif;
+}
+.titulo {
+    height: 55px;
+}
+.titulo svg{
+    float: left;
+}
+.titulo h1{
+    margin: 0 0 0 10px;
+    float: left;
+    font-size: 20px;
+    color: #166CD0;
+}
+.busca{
+    margin-top: 55px;
+}
+.busca input[type="submit"]{
+    width: 169px;
+    height: 50px;
+    margin-left: 33px;
+    background: #1CC4BF;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 15.5px;
+}
+.busca input[type='submit']:hover, .msgForm button:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.busca input[type='submit']:focus, .msgForm button:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}
+.cidade{
+    width: 123px;
+    height: 40px;
+    padding: 7.5px 0 0 10px;
+}
+.cidade select{
+    width: 113px;
+    height: 30px;
+    border: none;
+}
+.bairro{
+    width: 153px;
+    height: 40px;
+    margin: 0 33px;
+    padding: 7.5px 0 0 10px;
+}
+.bairro select{
+    width: 143px;
+    height: 30px;
+    border: none;
+}
+.cosulEspe{
+    width: 326px;
+    height: 40px;
+    padding: 7.5px 0 0 10px;
+}
+.cosulEspe input[type="text"]{
+    width: 316px;
+    height: 30px;
+    border: none;
+}
+.cosulEspe input[type="text"]::placeholder{
+    color: rgba(80, 95, 121, 0.7);
+}
+.cidade select, .bairro select, .cosulEspe input[type="text"]{
+    font-size: 15px;
+}
+.cidade, .bairro, .cosulEspe{
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.cidade:hover, .bairro:hover, .cosulEspe:hover{
+    border: 1.4px solid #858FA1;
+}
+.formFiltro{
+    width: 907px;
+    height: 668px;
+    margin-top: 60px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+}
+.filtro{
+    width: 212px;
+    height: 653px;
+    padding: 18px 0 0 15px;
+    border-right: 1px solid rgba(84, 101, 130, 0.2);
+    float: left;
+}
+.filtro svg{
+    float: left;
+}
+.filtro h3{
+    width: 120px;
+    margin: 5px 0 30px 10px;
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1CC4BF;
+}
+.filtro h2{
+    margin: 30px 0 25px 0;
+    font-size: 17px;
+    color: #505F79;
+}
+.filtro p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: rgba(133, 143, 161, 0.7);
+}
+.filtro input[type="text"]{
+    width: 73px;
+    height: 36px;
+    margin-bottom: 30px;
+    float: left;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+.filtro input[type="text"]::placeholder{
+    color: #858FA1;
+}
+.filtro input[type="text"]:hover{
+    border: 1.4px solid #858FA1;
+}
+.filtro input[type="submit"]{
+    width: 197px;
+    height: 40px;
+    margin-top: 10px;
+    background: #1CC4BF;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.filtro input[type='submit']:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.filtro input[type='submit']:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}
+.filtro button{
+    margin: 32px 0 0 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: rgba(84, 101, 130, 0.5);
+}
+/*css checkbox*/
+.container-label{
+    width: 1px;
+    height: 1px;
+    margin-right: 10px;
+    float: left;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #424242;
+    font-weight: 400;
+}
+  
+.container-label input{
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+  
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 2px;
+}
+.container-label input:checked ~ .checkmark{
+    background-color: #1CC4BF;
+    border: none;
+}
+  
+.checkmark::after{
+    display: none;
+    content: '';
+    position: absolute;
+}
+  
+.container-label .checkmark::after{
+    content: '';
+   left: 4px;
+   top: 0px;
+   width: 5px;
+   height: 9px;
+   transform: rotate(45deg);
+   border-right: 3px solid #fff;
+   border-bottom: 3px solid #fff;
+  
+}
+  
+.container-label input:checked ~ .checkmark::after{
+    display: block;
+}
+/*fim css checkbox*/
+
+.slide input[type="range"]{
+    width: 195px;
+}
+.slide p{
+    float: left;
+}
+/*inicio css slide*/
+.slider {
+    -webkit-appearance: none;
+    width: 195px;
+    height: 4px;
+    border-radius: 5px;
+    background: #1CC4BF;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border: none;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: url(/web/imagens/pontoSlider.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+}
+/*fim css slide*/
+.resulBusca{
+    width: 648px;
+    height: 634px;
+    margin-top: 17px;
+    padding: 0 0 0 30px;
+    float: left;
+    overflow: auto;
+}
+
+.med{
+    width: 602px;
+    height: 123px;
+    margin-top: 16px;
+    padding: 16px 0 0 16px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+}
+.med img{
+    width: 106px;
+    height: 106px;
+    margin-right: 24px;
+    float: left;
+}
+.med input[type="submit"]{
+    width: 122.57px;
+    height: 40.86px;
+    margin: 10px 0 0 43px;
+    border: none;
+    background: #1CC4BF;
+    border-radius: 8px;
+    font-size: 15.5px;
+    color: #fff;
+}
+.med input[type='submit']:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+.med input[type='submit']:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}
+.ptMed{
+    width: 54.75px;
+    height: 20.43px;
+    margin-right: 400px;
+    background: rgba(84, 101, 130, 0.8);
+    border-radius: 4px;
+    text-align: center;
+    float: left;
+}
+.ptMed h3{
+    margin: 4px 0 0 0;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+}
+.dadosMed{
+    width: 290px;
+    height: 68px;
+    margin-top: 19px;
+    float: left;
+}
+.dadosMed h2{
+    margin: 0;
+    font-size: 15px;
+    color: #1CC4BF;
+}
+.dadosMed p{
+    margin: 4px 0 0 0;
+    font-size: 14px;
+    color: #505F79;
+}
+
+/*scroll css*/
+.resulBusca::-webkit-scrollbar {
+    width: 2px;
+}
+  
+/* Track */
+.resulBusca::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px #E8E8E8; 
+border-radius: 10px;
+}
+   
+/* Handle */
+.resulBusca::-webkit-scrollbar-thumb {
+background: #546582; 
+}
+  
+/* Handle on hover */
+.resulBusca::-webkit-scrollbar-thumb:hover {
+    background: #546582; 
+}
+/*fim scroll*/

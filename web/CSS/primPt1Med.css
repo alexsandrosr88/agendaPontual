@@ -1,0 +1,43 @@
+@import url('global.css');
+
+body{
+    background-image: linear-gradient(to right,  #3dcdc8 40%, #6cd9d5 50%, #fff 50%);
+}
+.gradient{
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(to right,  #3dcdc8 20%, #6cd9d5 30%, #fff 30%);
+}
+.todo{
+    width: 556px;
+    height: 618px;
+    padding: 351px 0 0 644px;
+    margin: 0 auto;
+    background-image: url(/web/imagens/Dra.png);
+    background-repeat: no-repeat;
+    background-size: 481px 813px;
+    background-position: left bottom;
+    font-family: 'Mulish', sans-serif;
+}
+.todo h1{
+    width: 300px;
+    height: 81px;
+    font-size: 33px;
+    color: #505F79;
+    margin: 80px 0 17px 0;
+}
+.todo p{
+    width: 500px;
+    height: 110px;
+    margin: 0 0 50px 0;
+    font-size: 22px;
+    color: #546582;
+}
+.todo h2{
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 22px;
+    font-weight: normal;
+    color: #1CC4BF;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+
+#container-landing{
+   max-width:1400px;
+}
+#container-landing .logo-image-block{
+    margin:21px 0 80px 160px;
+}
+#container-landing .main-page-login{
+    border:1.4px solid rgba(84, 101, 130, 0.1);
+    padding:40px;
+    width:450px;
+    margin:0 auto;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px rgba(84, 101, 130, 0.1);
+}
+.form-page .form-content{
+    width:100%;
+}
+.form-page .form-content h1{
+    margin:20px 223px 26px 0;
+    width:100%;
+    font:600 30px 'Mulish', sans-serif;
+    color:#1CC4BF;
+    letter-spacing:0.4px;
+}
+.form-content form .input-field{
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    padding:10px 15px;
+    margin-bottom:15px;
+}
+.form-content form .input-field p{
+    font:normal 10px 'Mulish', sans-serif;
+    color:#B9BFC9;
+    line-height:13px;
+    margin-bottom:5px;
+}
+.form-content form .input-field input, input::placeholder{
+    border:none;
+    font:normal 16px 'Mulish', sans-serif;
+    width:100%;
+    color: rgba(133, 143, 161, 1);
+    letter-spacing:0.5;
+}
+.form-content .check-box-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: start;
+    align-items: center;
+    margin:20px 0 35px 3px;
+}
+.form-content .check-box-container input[type="checkbox"]{
+    margin-right:10px;
+    padding:10px;
+    border:1.4px solid rgba(165, 165, 165, 0.1);
+    -webkit-transform: scale(1.5);
+}
+.form-content .check-box-container span p{
+    font:normal 11px 'Mulish', sans-serif;
+    color: rgba(133, 143, 161, 0.7);
+}
+.form-content .check-box-container span:last-child{
+    font:400 11px 'Mulish', sans-serif;
+    margin-left:100px;
+    color:#1CC4BF;
+    cursor:pointer;
+}
+.form-content .subscribe-footer button{
+    width:100%;
+    padding:20px;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.21) 58.84%, rgba(255, 255, 255, 0) 101.8%),
+    linear-gradient(0deg, #1CC4BF, #1CC4BF);
+    border:0;
+    border-radius:8px;
+    color:#fff;
+    font:600 15.5px 'Mulish', sans-serif;
+}
+.form-content .subscribe-footer button:hover{
+    box-shadow: 0px 10px 25px rgba(0, 255, 240, 0.2);
+    transition:box-shadow 250ms;
+    cursor:pointer;
+    outline:0;
+}
+

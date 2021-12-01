@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form th:action="@{/paciente/cadastro/validacao}" method="post">
+
+
+		<div class="first-row" th:object="${paciente}">
+			<div class="input-block">
+				<p th:text="*{nomePaci}">NOME</p>
+				<input type="text" th:field="*{nomePaci}" name="text-name"
+					placeholder="Digite seu nome completo" />
+			</div>
+			<div class="input-block">
+				<p>CPF</p>
+				<input type="text" th:field="*{cpf}" name="text-cpf-cnpj"
+					placeholder="Digite seu CPF ou CNPJ" />
+			</div>
+			<div class="input-block">
+				<p>E-MAIL</p>
+				<input type="email" th:field="*{usuario.email}" name="text-email"
+					placeholder="Informe um email" />
+			</div>
+			<div class="input-block">
+				<p>SENHA</p>
+				<input type="password" th:field="*{usuario.senha}"
+					name="text-password" placeholder="Senha alfanumérica" />
+			</div>
+			<div class="input-block">
+				<p>SUA RESIDÊNCIA</p>
+				<input type="text" th:field="*{endereco.logradouro}" name="text-logradouro" placeholder="Logradouro" />
+			</div>
+
+			<article class="question-option">
+				<p>Você tem sintomas de febre, tosse ou dificuldade de respirar
+					ou teve contato com alguém com esses sintomas?</p>
+				<input type="radio" value="1" th:field="*{sintomas}" /> <span>Sim</span>
+				<input type="radio" value="0" th:field="*{sintomas}"/> <span>Não</span>
+				
+				<p>É sua primeira consulta com o especialista Dr. Wilson Santos?</p>
+				<input type="radio" value="1" th:field="*{primeiraConsulta}" /> <span>Sim</span>
+				<input type="radio" value="0" th:field="*{primeiraConsulta}" /> <span>Não</span>
+			</article>
+
+			<div class="input-block">
+				<p>Submeter</p>
+				<button type="submit">Enviar</button>
+			</div>
+		</div>
+	</form>
+</body>
+</html>

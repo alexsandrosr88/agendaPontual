@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    border:0;
+}
+#container-landing{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+#container-landing .menu-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:33px 0 0 0;
+    margin-bottom:67.3px;
+}
+#container-landing ul li:nth-child(4){
+    color:#166CD0;
+    font-weight: bold;
+}
+#container-landing ul li{
+    display: inline;
+    padding: 0 30px;
+    color:#546582;
+    font:normal 16px 'Mulish', sans-serif;
+    cursor:pointer;
+}
+#container-landing ul li:not(li:nth-child(3)){
+    position:relative;
+    bottom:13px;
+}
+#container-landing ul li span{
+    margin-left:20px;
+    position:relative;
+    bottom:4px;
+}
+#container-landing .main-page{
+    margin-bottom:123px;
+}
+#container-landing .main-page .back,
+#container-landing .margin{
+    margin-bottom:60px;
+}
+#container-landing .margin{
+    margin-top:60px;
+}
+#container-landing .main-page .margin span{
+    margin-left:10px;
+    font:bold 25px 'Mulish', sans-serif;
+    color:#166CD0;
+    margin-bottom:46px;
+    position:relative;
+    bottom:3px;
+}
+#container-landing .question h2{
+    font:bold 30px 'Mulish', sans-serif;
+    line-height:38px;
+    color:rgba(84, 101, 130, 0.9);
+    width:380px;
+    margin-bottom:23px;
+} 
+#container-landing .question p{
+    font:400 18px 'Mulish', sans-serif;
+    color:#546582;
+    width:395px;
+    margin-bottom:55px;
+}
+#container-landing .question footer button{
+    background: #1CC4BF;
+    border-radius: 8px;
+    color:#fff;
+    letter-spacing: 0.2px;
+    font-size: 15.5px;
+    font-weight: bold;
+    padding:15px 0;
+    width:164px;
+    cursor:pointer;
+}
+#container-landing .question footer button:hover{
+    letter-spacing: 0.4px;
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    transition:letter-spacing ease 250ms;
+}

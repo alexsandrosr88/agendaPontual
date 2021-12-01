@@ -1,0 +1,481 @@
+@import url(global.css);
+
+.todo{
+    width: 1300px;
+    height: 1900px;
+    margin: 0 auto;
+    padding: 0 0 0 100px;
+    font-family: 'Mulish', sans-serif;
+}
+.agendaLateral{
+    width: 289px;
+    height: 100%;
+    border-right: 1px solid rgba(84, 101, 130, 0.2);
+    position: relative;
+    float: left;
+}
+#logoMenuClinica svg{
+    margin: 38px 0 40px 15px;
+}
+.agendaDia{
+    width: 289px;
+    margin-bottom: 11px;
+}
+.agendaDia p{
+    margin-left: 15px;
+    font-size: 16px;
+    color: #B9BFC9;
+}
+.paciente{
+    width: 289px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50px 0px 0px 50px;
+}
+.paciente button{
+    width: 289px;
+    height: 50px;
+    padding-left: 0;
+    background: transparent;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+.paciente img{
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px 10px 15px;
+    border-radius: 50%;
+    float: left;
+}
+.paciente h4{
+    width: 195px;
+    height: 50px;
+    margin: 17px 0 0 0;
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    color: #546582;
+}
+#ativo{
+    width: 288px;
+    background: rgba(0, 82, 204, 0.15);
+    border-right: 2px solid #0052CC;
+    color: #166CD0;
+}
+#ativo h4{
+    color: #166CD0;
+}
+.verMais button{
+    margin-left: 15px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    color: #B9BFC9;
+}
+.voltar{
+    width: 275px;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    border-top: 1px solid rgba(84, 101, 130, 0.2);
+    padding: 35px 0 0 15px;
+}
+.voltar p, .voltar svg{
+    float: left;
+}
+.voltar p{
+    margin: 2px 0 0 22px;
+}
+.voltar a{
+    color: #546582;
+}
+.meio{
+    width: 775px;
+    height: 100%;
+    padding: 0 0 0 80px;
+    float: left;
+}
+.topo{
+    height: 90px;
+    margin: 100px 0 55px 0;
+}
+
+.topo img{
+    width: 90px;
+    height: 90px;
+    margin-right: 23px;
+    border-radius: 50%;
+    float: left;
+}
+
+.dados{
+    width: 250px;
+    height: 50px;
+    margin: 30px 218px 0 0;
+    float: left;
+}
+.dados p{
+    margin: 0 0 4px 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: #166CD0;
+}
+.tempo{
+    width: 87px;
+    height: 25px;
+    margin-top: 16px;
+    padding: 15px 20px;
+    float: left;
+    background: rgba(100, 246, 202, 0.18);
+    border-radius: 7;
+}
+.tempo svg{
+    float: left;
+    margin-right: 13px;
+}
+.tempo p{
+    margin: 4px 0 0 0;
+    float: left;
+    font-size: 18px;
+    color: #4DA76B;
+    font-weight: bold;
+}
+.topo button{
+    margin: 31px 0px 0px 30px;
+    border: none;
+    background: none;
+}
+.anotacoes{
+    height: 90px;
+    margin-bottom: 45px;
+}
+.anotacoes h1, .doencas h1, .menuInterativo h1, .historico h1, .encaminhamento h1, .receituario h1{
+    height: 30px;
+    margin: 0 0 7px 0;
+    font-size: 18px;
+    color: #546582;
+}
+.anotacoes p{
+    height: 50px;
+    margin: 0;
+    font-size: 16px;
+    color: #546582;
+}
+
+.doencas{
+    width: 755px;
+    height: 90px;
+    margin-bottom: 45px;
+}
+.comorbidades{
+    width: 755px;
+    height: 55px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/*scroll*/
+.comorbidades::-webkit-scrollbar, .dadosHistorico::-webkit-scrollbar, .tbNot tbody::-webkit-scrollbar {
+    width: 2px;
+}
+  
+/* Track */
+.comorbidades::-webkit-scrollbar-track, .dadosHistorico::-webkit-scrollbar-track, .tbNot tbody::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px #E8E8E8; 
+border-radius: 10px;
+}
+   
+/* Handle */
+.comorbidades::-webkit-scrollbar-thumb, .dadosHistorico::-webkit-scrollbar-thumb, .tbNot tbody::-webkit-scrollbar-thumb {
+background: #546582; 
+}
+  
+/* Handle on hover */
+.comorbidades::-webkit-scrollbar-thumb:hover, .dadosHistorico::-webkit-scrollbar-thumb:hover, .tbNot tbody::-webkit-scrollbar-thumb:hover {
+    background: #546582; 
+}
+/*fim scroll*/
+
+.comorbidade{
+    height: 45px;
+    padding: 0 20px;
+    margin: 5px 10px 5px 0;
+    background: #F7F8F9;
+    border-radius: 6px;
+    float: left;
+    font-weight: 600;
+    font-size: 15.5px;
+    color: #505F79;
+}
+.comorbidade:hover{
+    background: #F7F8F9;
+    color: #B9BFC9;
+}
+.comorbidade:focus{
+    background: #1CC4BF;
+    color: #FFFFFF;
+}
+.menuInterativo{
+    height: 140px;
+    margin-bottom: 70px;
+}
+.iniConsultaLink, .encaExamesLink, .receituarioLink, .incarTerminoLink{
+    height: 70px;
+    margin-top: 13px;
+    padding: 20px 0 0 20px;
+    border-radius: 6px;
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+.iniConsultaLink, .encaExamesLink, .receituarioLink{
+    margin-right: 10px;
+}
+.iniConsultaLink p, .encaExamesLink p, .receituarioLink p, .incarTerminoLink p{
+    margin: 15px 0 0 0;
+}
+.iniConsultaLink{
+    width: 147px;
+    background: rgba(255, 63, 63, 0.47);
+    color: #C73636;
+}
+.encaExamesLink{
+    width: 172px;
+    background: rgba(28, 196, 191, 0.5);
+    color:  #0FA29D;
+}
+.receituarioLink{
+    width: 105px;
+    background: rgba(64, 148, 247, 0.58);
+    color: #3E84D5;
+}
+.incarTerminoLink{
+    width: 240px;
+    background: rgba(222, 168, 255, 0.8);
+    color: #A04BD5;
+}
+.historico{
+    width: 775px;
+    height: 221px;
+    margin-bottom: 70px;
+}
+.retanguloHis{
+    width: 734px;
+    height: 144px;
+    padding: 20px;
+    background: #F7F8F9;
+    border-radius: 6px;
+}
+.dadosHistorico{
+    width: 732px;
+    height: 144px;;
+    border-radius: 6px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.dadosHistorico h1{
+    margin: 10px 0 5px 0;
+    font-size: 15.5px;
+    color: #166CD0;
+}
+.dadosHistorico p{
+    width: 700px;
+    margin: 0 0 20px 0;
+}
+.encaminhamento{
+    width: 775px;
+    height: 514px;
+    margin-bottom: 70px;
+}
+.pequisaExame{
+    width: 290px;
+    height: 44px;
+    margin-right: 180px;
+    padding: 13px 0 0 20px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.pequisaExame svg, .pequisaExame p, .pequisaExame input[type="text"]{
+    float: left;
+}
+.pequisaExame svg{
+    width: 22px;
+    height: 25px;
+    margin: 3px 13px 0 0;
+}
+.pequisaExame P{
+    font-size: 10px;
+    margin: 0 0 2px 0;
+    color: #B9BFC9;
+}
+.pequisaExame input[type="text"]{
+    width: 240px;
+    height: 14px;
+    font-size: 14px;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+.pequisaExame input[type="text"]::placeholder{
+    color: #858FA1;
+}
+#impriEncaminha, #impriReceita{
+    padding: 5px 0 0 17px;
+    background: #FFFFFF;
+    border: 1.5px solid #1CC4BF;
+    border-radius: 8px;
+    color: #1CC4BF;
+}
+#impriEncaminha{
+    width: 281px;
+    height: 60px;
+}
+#impriReceita{
+    width: 208px;
+    height: 60px;
+}
+#impriEncaminha:hover, #impriEncaminha:focus, #impriReceita:hover, #impriReceita:focus{
+    background: #1CC4BF;
+    border: 1.5px solid #1CC4BF;
+    color: #fff;
+}
+
+#impriEncaminha:hover path, #impriEncaminha:focus path, #impriReceita:hover path, #impriReceita:focus path{
+    fill: #fff;
+}
+#impriEncaminha:focus, #impriReceita:focus{
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+}
+#impriEncaminha svg, #impriEncaminha p, #impriReceita svg, #impriReceita p{
+    float: left;
+}
+#impriEncaminha svg, #impriReceita svg{
+    margin-right: 5px;
+}
+#impriEncaminha p, #impriReceita p{
+    margin: 6px 0 0 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.divTabela{
+    width: 751px;
+    height: 347px;
+    margin-top: 40px;
+    padding: 27px 0 0 20px;
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    border-radius: 8px;
+}
+.tbNot thead{
+    width: 730px;
+    height: 30px;
+    display: inline-block;
+}
+.tbNot tbody{
+    width: 710px;
+    height: 243px;
+    padding-right: 21px;
+    display: inline-block;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.tbNot{
+    border-collapse: collapse;
+}
+.tbNot tr:nth-child(even){
+    background: rgba(0, 82, 204, 0.05);
+} 
+.tbNot td, .tbNot th{
+    height: 25px;
+    padding: 5px;
+    text-align: left;
+}
+.tbNot th{
+    color: rgba(133, 143, 161, 0.28);
+    font-size: 14px;
+}
+.tbNot td{
+    font-size: 14px;
+    color: #546582;
+}
+#exameTh{
+    width: 329px;
+    padding-left: 36px;
+}
+#codTh{
+    width: 196px;
+}
+#tussTh{
+    width: 120px;
+}
+#exameTd{
+    width: 360px;
+}
+#codTd{
+    width: 195px;
+}
+#tussTd{
+    width: 121px;
+}
+.option-check {
+    height: 20px;
+    width: 20px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    top: 4px;
+}
+.option-check:checked::before {
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    line-height: 21px;
+}
+.receituario{
+
+}
+.descricaoRecei, .intervaloDose{
+    border: 1.4px solid rgba(84, 101, 130, 0.1);
+    padding: 14px 0 0 20px;
+    border-radius: 8px;
+    float: left;
+}
+.descricaoRecei p, .intervaloDose p{
+    font-size: 10px;
+    color: #B9BFC9;
+    margin: 0 0 5px 0;
+}
+.descricaoRecei{
+    width: 523px;
+    height: 135px;
+    margin-right: 20px;
+}
+.descricaoRecei svg{
+    margin-right: 13px;
+    float: left;
+}
+.descricaoRecei textarea{
+    width: 460px;
+    height: 92px;
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+}
+.descricaoRecei textarea::placeholder{
+    color: #858FA1;
+}
+.intervaloDose{
+    width: 185px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.intervaloDose select{
+    width: 170px;
+    height: 27px;
+    font-size: 14px;
+    border: none;
+}
+.impriReceita{
+    width: 208px;
+    height: 60px;
+}

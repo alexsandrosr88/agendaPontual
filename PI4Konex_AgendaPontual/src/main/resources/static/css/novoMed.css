@@ -1,0 +1,194 @@
+@import url('global.css');
+
+.todo{
+    width: 1080px;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+}
+#voltar{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 61px;
+}
+#titulo{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 50px;
+}
+#titulo svg{
+    float: left;
+    margin-top: 5px;
+}
+#titulo h1{
+    margin: 0 0 0 10px;
+    float: left;
+    font-size: 25px;
+    color: #166CD0;
+
+}
+.foto{
+    width: 110px;
+    height: 124px;
+    margin-bottom: 35px;
+}
+#attFt{
+    font-size: 14px;
+    color: #1CC4BF;
+}
+.dados{
+    width: 1089px;
+    height: 255px;
+    margin: 0 auto 60px auto;
+}
+
+.dados input{
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+}
+.dados input:disabled{
+    background: none;
+}
+.dados input::placeholder{
+    color: #858FA1;
+}
+.nome, .cpf, .emailDados, .senha, .sexo, .rg, .tel, .dataNasc, .especi, .crm, .dataCrm{
+    height: 50px;
+    padding: 10px 0 0 13px;
+    margin-bottom: 15px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    float: left;
+}
+.nome:hover, .cpf:hover, .emailDados:hover, .senha:hover, .sexo:hover, .rg:hover, .tel:hover, .dataNasc:hover, .especi:hover, .crm:hover, .dataCrm:hover{
+    border: 1.4px solid #858FA1;
+}
+.nome, .cpf, .senha, .sexo, .rg, .crm, .dataNasc, .especi{
+    margin-right: 15px;
+}
+.nome input, .cpf input, .emailDados input, .senha input, .rg input, .tel input, .dataNasc input, .especi select, .crm input, .dataCrm input{
+    border: none;
+}
+.nome p, .cpf p, .emailDados p, .senha p, .rg p, .tel p, .dataNasc p, .especi p, .crm p, .comp p, .dataCrm p{
+    margin: 0 0 5px 0;
+    font-size: 10px;
+    color: #B9BFC9;
+}
+.nome, .emailDados{
+    width: 359px;
+}
+.nome input, .emailDados input{
+    width: 340px;
+}
+.tel{
+    width: 205px;
+}
+.tel input{
+    width: 193px;
+}
+.rg{
+    width: 182px;
+}
+.rg input{
+    width: 168px;
+}
+.cpf{
+    width: 290px;
+}
+.cpf input{
+    width: 246px;
+}
+.senha{
+    width: 324px;
+}
+.senha input{
+    width: 274px;
+}
+.sexo{
+    width: 265px;
+    height: 45px;
+    padding-top: 15px;
+}
+.dataNasc{
+    width: 206px;
+}
+.dataNasc input{
+    width: 193px;
+}
+.especi {
+    width: 360px;
+}
+.especi select{
+    width: 350px;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+}
+.crm{
+    width: 221px;
+}
+.crm input{
+    width: 206px;
+}
+.dataCrm{
+    width: 193px;
+    
+}
+.dataCrm input{
+    width: 190px;
+}
+.arrastar{
+    width: 576px;
+    height: 37px;
+    padding: 23px 0 0 34px;
+    border: 1.4px dashed #166CD0;
+    border-radius: 8px;
+    float: left;
+}
+.arrastar svg, .arrastar p{
+    float: left;
+}
+.arrastar svg{
+    margin-right: 13px;
+}
+.arrastar p{
+    margin: 0;
+    font-size: 15.5px;
+    font-weight: bold;
+    color: #166CD0;
+}
+button{
+    width: 290px;
+    height: 60px;
+    margin-left: 7px;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15.5px;
+    color: #1CC4BF;
+}
+button:hover{
+    background: #1CC4BF;
+    color: #fff;
+    stroke: #fff;
+}
+button:hover path, button:focus path {
+    stroke: #fff;
+}
+
+input[type="submit"]{
+    width: 165px;
+    height: 60px;
+    background: #1CC4BF;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 15.5px;
+}
+input[type="submit"]:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+}
+input[type="submit"]:focus, button:focus{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    box-shadow: 0px 10px 25px rgba(28, 196, 191, 0.3);
+    color: #fff;
+}

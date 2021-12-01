@@ -1,0 +1,54 @@
+//Atributos web
+String time1 =  proj.getHoraInicio();
+String time2 =  proj.getHoraSaida();
+float meta = proj.metaPaci();
+float valorPorPaci = proj.valorPaci();
+int qtdDiasTrab = proj.getQtdDias();
+String opSegure = request.getParamenter("tempoSeguranca");
+
+//atributos auxiliares
+int qtdPaciDia = 0;
+int minBase = 0;
+float qtdPaciMes = 0f
+int intervalo = 60;
+
+//calculando a diferença
+SimpleDateFormat format = new SimpleDateFormat("HH:mm");
+Date date1 = format.parse(time1);
+Date date2 = format.parse(time2);
+long difference = date2.getTime() - date1.getTime();
+
+//horario Base do calculo qtd de minutros trabalhos
+long diffMinutos = difference / (60 * 1000);
+minBase = (int) diffMinutos; 
+
+//Base menos o intervalo
+minBase = minBase - intervalo;
+
+//Verifica se ele deseja tempo de segunraça 
+if("Sim".equalsIgnoreCase(opSegure)){
+	int minBase = minBase - 20;		
+}
+
+//Calcular a qtd de paciente que ele deve atender no mes 
+qtdPaciMes = meta/valorPorPaci;
+qtdPaciMes = Math.round(qtdPaciMes);
+
+//Calcula a qtd de paciente no dia
+qtdPaciDia = 30/qtdDiasTrab; 
+qtdPaciDia  = Math.round(qtdPaciDia);
+
+//Gerar a duração da consulta
+//dividir o minBase pela qtdPaciente do dia
+int durationMin = (minBase/qtdPaciDiaInt) - 5;
+qtdPaciDia  = Math.round(durationMin);
+
+//setar os valores
+proj.setDuracao(durationMin);
+proj.setQtdDias(qtdPaciDia);
+proj.setTotalConsulta(qtdPaciMes);
+
+//savar no banco
+
+
+

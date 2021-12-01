@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    font-family:'Mulish', sans-serif
+}
+#container-landing .grid-dashboard{
+    display: grid;
+    grid-template-columns: 25vw 65vw;
+    grid-template-rows: 15vh 80vh;
+    grid-template-areas: "aside header"
+                         "aside main"
+                         "aside main";
+}
+#container-landing .grid-dashboard aside{
+    grid-area: aside;
+    border-right: 1px solid rgba(84, 101, 130, 0.2);;
+    color:#546582;
+}
+#container-landing .grid-dashboard aside p, footer span{
+    cursor:pointer;
+}
+#container-landing .grid-dashboard header{
+    grid-area: header;
+    border-bottom:1px solid rgba(84, 101, 130, 0.3);
+}
+#container-landing .grid-dashboard main{
+    grid-area: main;
+}   
+#container-landing aside .initial-header{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   padding:38px 0 100.3px 0;
+}
+#container-landing aside .settings_and_help{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    border-top: 1px solid rgba(84, 101, 130, 0.2);
+    border-bottom:1px solid rgba(84, 101, 130, 0.2);
+}
+#container-landing aside .settings_and_help p{
+    margin:0 auto;
+}
+#container-landing aside .settings_and_help p:first-child{
+    color:#166CD0;
+}
+#container-landing aside .main-menu-content, footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container-landing aside p:not(p:last-child), .settings{
+   margin-bottom:25px;
+}
+#container-landing .main-menu-content > .text{
+    margin-bottom:162px;
+}
+#container-landing aside section p{
+    margin-left:95px;
+}
+#container-landing aside section{
+    padding:25px 0;
+}
+#container-landing aside section p:first-child{
+    font-weight:700;
+}
+#container-landing aside footer{
+    margin-top:25px;
+    color:#546582;
+    padding:15px 0;
+    width:100%;
+}
+#container-landing .header-download{
+    margin:40px 50px 0 50px;
+    cursor:pointer;
+}
+#container-landing .exit{
+    margin:29px 0 0 50px;
+    cursor:pointer;
+}
+#container-landing .exit span{
+    margin-left:10px;
+    font:700 25px 'Mulish', sans-serif;
+    color:#166CD0;
+}
+#container-landing .form-container{
+    margin:70px 0 0 56px;
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    padding:20px 28px;
+    width:100%;
+    border-radius:8px;
+}
+#container-landing .form-container h2{
+    font:700 25px 'Mulish', sans-serif;
+    color:#546582;
+    margin-bottom:40px;
+}
+#container-landing form .first-block, .second-block,
+.third-block, .forth-block{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#container-landing form .first-block, .second-block, .third-block{
+    margin-bottom:15px;
+}
+#container-landing form .first-block .input-block:nth-child(2){
+    background:#F4F9FF;
+}
+#container-landing form .input-block{
+    border: 1.4px solid rgba(80, 95, 121, 0.1);
+    border-radius: 8px;
+    padding: 10px 8px;
+    width:100%;
+}
+#container-landing form .input-block:not(.input-block:last-child){
+    margin-right:15px;
+}
+#container-landing form .input-block p:first-child{
+    margin-bottom:5px;
+    font: normal 10px 'Mulish', sans-serif;
+    color:#B9BFC9;
+}
+#container-landing form .input-block p:last-child{
+    font: normal 14px 'Mulish', sans-serif;
+    color:#858FA1;
+    line-height:20px;
+}
+#container-landing form .third-block .input-block:nth-child(2){
+    width:300px;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font:normal 16px 'Mulish', sans-serif;
+    color:#546582;
+}
+#container-landing form input[type="checkbox"]{
+    margin-right:15px;
+}
+#container-landing button{
+    background:#1CC4BF;
+    color:#fff;
+    border:0;
+    font:700 15px 'Mulish', sans-serif;
+    padding: 20px 45px;
+    border-radius:8px;
+    cursor:pointer;
+    width:100%;
+}
+#container-landing button:hover{
+    background: linear-gradient(258.4deg, rgba(0, 255, 240, 0.43) 58.84%, rgba(255, 255, 255, 0) 101.8%), #1CC4BF;
+    letter-spacing: 0.3px;
+    transition: letter-spacing 250ms ease-in-out;
+}
+#container-landing .dashboard, .new-encounter, .view-encounter, .radar, .config{
+    margin-bottom:30px;
+}
+#container-landing .config span{
+    font-weight:bold;
+    color:#166CD0;
+}
+#container-landing .dashboard span, .new-encounter span, 
+.view-encounter span, .radar span, .config span, .help span, .feedback span, .sair span{
+    margin-left:22px;
+    font-size:16px;
+    cursor:pointer;
+    position:relative;
+    bottom:5px;
+}
+#container-landing .sair{
+    width:150px;
+}
+
+
+
+#container-landing input[type="checkbox"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    transition: all 0.15s ease-out 0s;
+    background: #fff;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+  }
+  #container-landing input[type="checkbox"]{
+      height: 20px;
+      width: 20px;
+      border: 1.4px solid #1CC4BF;
+  }
+  
+  #container-landing input[type="checkbox"]:checked{
+      background: #1CC4BF;
+      border: none;
+  }
+  #container-landing input[type="checkbox"]:checked::before{
+    position: absolute;
+    content: '✔';
+    font-size: 26.66667px;
+    text-align: center;
+    line-height: 40px;
+  }
+  #container-landing input[type="checkbox"]:checked::before{
+      height: 20px;
+      width: 20px;
+      font-size: 13px;
+      line-height: 20px;
+  }
+  #container-landing input[type="checkbox"]{
+    border-radius: 100px;
+  }
